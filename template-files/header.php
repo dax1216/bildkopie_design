@@ -8,7 +8,7 @@
 	<meta name="description" content="Neon Admin Panel" />
 	<meta name="author" content="" />
 	
-	<title>Neon | Dashboard</title>
+	<title>Bildkopie | Dashboard</title>
 	
 
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css">

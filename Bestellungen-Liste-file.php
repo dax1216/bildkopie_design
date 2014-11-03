@@ -6,4 +6,5 @@
 		<?php get_template_part('BestellungenFile'); ?>
 	</div>
 </div>
+<?php get_template_part('ModalImageUpload'); ?>
 <?php get_footer('user'); ?>

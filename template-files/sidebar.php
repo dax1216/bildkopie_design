@@ -5,7 +5,7 @@
 			
 			<!-- logo -->
 			<div class="logo">
-				<a href="<?php siteInfo('url'); ?>">
+				<a href="<?php siteInfo('url'); ?>/backend_photographer/index.php">
 					<img src="assets/images/logo.png" width="142" alt="" />
 				</a>
 			</div>
@@ -29,10 +29,6 @@
 			
 		</header>
 				
-		
-		
-				
-		
 				
 		<ul id="main-menu" class="">
 			<!-- add class "multiple-expanded" to allow multiple submenus to open -->
@@ -40,7 +36,7 @@
 		
 		
 			<li class="active active">
-				<a href="index.html">
+				<a href="<?php siteInfo('url'); ?>/backend_photographer/index.php">
 					<i class="entypo-gauge"></i>
 					<span>Dashboard</span>
 				</a>
@@ -53,12 +49,12 @@
 					<span class="badge badge-success">3</span>
 				</a>
 				<ul>
-					<li><a href="#">Bestellungen</a></li>
+					<li><a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php">Bestellungen</a></li>
 					<li><a href="#">Rechnungen</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="index.html" target="_blank">
+				<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Liste.php">
 					<i class="entypo-users"></i>
 					<span>Kunden</span>
 				</a>
@@ -69,9 +65,9 @@
 					<span>Galerien</span>
 				</a>
 				<ul>	
-					<li><a href="#">Alben</a></li>
-					<li><a href="#">Kategorien</a></li>
-					<li><a href="#">Wasserzeinchen</a></li>
+					<li><a href="<?php siteInfo('url');?>/backend_photographer/Alben.php">Alben</a></li>
+					<li><a href="<?php siteInfo('url');?>/backend_photographer/Alben-KategorieTabelle.php">Kategorien</a></li>
+					<li><a href="<?php siteInfo('url');?>/backend_photographer/Alben-Wasserzeichen.php">Wasserzeinchen</a></li>
 				</ul>
 			</li>
 			<li>
@@ -90,7 +86,7 @@
 				<a href="#">
 					<i class="entypo-home"></i>
 					<span>OnlineShop</span>
-					<i class="entypo-popup pull-right"></i>
+					<i class="entypo-popup pull-right hidden-sm"></i>
 				</a>
 				<ul>
 					<li><a href="#"><span>Shopdetails</span></a></li>					

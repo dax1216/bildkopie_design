@@ -32,7 +32,8 @@
 					<textarea class="form-control wysihtml5" data-stylesheet-url="<?php siteInfo('template_url');?>css/wysihtml5-color.css" name="sample_wysiwyg" id="sample_wysiwyg"></textarea>
 				</div>
 				<br/>
-				<p class="browse-file"><button type="button" class="btn btn-primary"> <i class="entypo-up-circled"></i> Browse Files</button> 5 files</p>
+				<p class="browse-file"><input type="file" class="form-control file2 inline btn btn-primary" multiple="1" data-label="<i class='entypo-up-circled'></i> &nbsp;Browse Files" /> 5 files</p>
+				
 			</form>
 		
 		</div>

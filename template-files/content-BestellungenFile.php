@@ -329,7 +329,7 @@
 						<td>
 							<div class="cropped">
 								<a href="#" class="thumb">
-									<img src="<?php imgUrl('img-thumb.jpg'); ?>" />
+									<img src="assets/images/img-thumb.jpg" />
 									<div class="overlay left" style="width:28%;"></div>
 									<div class="overlay right" style="width:34%;"></div>
 								</a>
@@ -371,7 +371,7 @@
 						<td>
 							<div class="cropped">
 								<a href="#" class="thumb">
-									<img src="<?php imgUrl('img-thumb.jpg'); ?>" />
+									<img src="assets/images/img-thumb.jpg" />
 									<div class="overlay left" style="width:15%;"></div>
 									<div class="overlay right" style="width:15%;"></div>
 								</a>
@@ -412,7 +412,7 @@
 						<td>
 							<div class="cropped">
 								<a href="#" class="thumb">
-									<img src="<?php imgUrl('img-thumb.jpg'); ?>" />
+									<img src="assets/images/img-thumb.jpg" />
 								</a>
 							</div>
 						</td>

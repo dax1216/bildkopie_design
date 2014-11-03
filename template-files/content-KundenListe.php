@@ -2,11 +2,11 @@
 <h2 class="page-title">Kunden</h2>
 <div class="panel panel-primary">
 	<div class="panel-heading paddup">		
-		<div class="row">
-			<div class="col-sm-6">							
+		<div class="row"> 
+			<div class="col-sm-6 col-md-6">							
 				<form class="form-horizontal form-groups-bordered">
 					<div class="row">
-						<div class="col-sm-7">														
+						<div class="col-sm-12 col-md-7">														
 							<div class="col-sm-4">
 								<select name="test" class="selectboxit">	
 									<option value="10">10</option>						
@@ -19,16 +19,16 @@
 					</div>
 				</form>			
 			</div>	
-			<div class="col-sm-4 col-sm-offset-2">	
+			<div class="col-sm-6 col-md-5 col-md-offset-1">	
 				<form class="form-horizontal form-groups-bordered">
 					<div class="row">
-						<div class="col-sm-8">
+						<div class="col-md-7 col-sm-6">
 							<label for="field-1" class="col-sm-3 control-label">Search:</label>								
 							<div class="col-sm-9">
 								<input type="text" class="form-control" id="field-1" >
 							</div>
 						</div>
-						<div class="col-sm-4">
+						<div class="col-md-5 col-sm-6">
 							<div class="btn-group pull-right"  data-toggle="buttons">
 								<label class="btn btn-white">
 									<input type="checkbox">CSV
@@ -65,7 +65,7 @@
 				<td>0664-5308695</td>
 				<td>claudia.musil@gmail.com</td>
 				<td>
-					<div class="btn-group both-icon ">
+					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
 						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
@@ -88,7 +88,7 @@
 				<td>0664-5308695</td>
 				<td>claudia.musil@gmail.com</td>
 				<td>
-					<div class="btn-group both-icon ">
+					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
 						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
@@ -111,7 +111,7 @@
 				<td>0664-5308695</td>
 				<td>claudia.musil@gmail.com</td>
 				<td>
-					<div class="btn-group both-icon ">
+					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
 						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
@@ -134,7 +134,7 @@
 				<td>0664-5308695</td>
 				<td>claudia.musil@gmail.com</td>
 				<td>
-					<div class="btn-group both-icon ">
+					<div class="btn-group both-icon white ">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
 						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">

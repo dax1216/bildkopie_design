@@ -3400,14 +3400,17 @@ table tr.no-bg td{
 .packages td small{
   color: #a8a8a8;
 }
-.packages .entypo-check{
+.packages .entypo-check,
+#modal-image-upload tbody td .entypo-check{
   color: #00a651;
   font-size: 15px;
 }
-.packages .entypo-cancel{
+.packages .entypo-cancel,
+#modal-image-upload tbody td  .entypo-cancel{
   color: #ff1945;
   font-size: 15px;
 }
+
 .modal .modal-header h4{
   font-weight: bold;
 }
@@ -3481,6 +3484,10 @@ table tr.no-bg td{
 .login-container .ui-toolbar{
   background: #333e4a;
 }
+.terms-acceptance{ 
+  text-align: left;
+  color: #aaaaaa;
+}
 .button-group button.btn{
   display: block;
   float: none;
@@ -3540,11 +3547,11 @@ table tr.no-bg td{
   width: 100%;
 }
 .with-table .btn-group.both-icon .dropdown-toggle{
-  width: 16%;
+
 }
 
 .with-table .btn-group  .btn-parallel{
-  width: 84%;
+  width: 78%;
   text-align: left;
 }
 .panel-footer.with-paginate{
@@ -3592,6 +3599,13 @@ table tr.no-bg td{
   text-align: center;
     vertical-align: middle;
 }
+.cropped.cropped-modal{
+  width: 100%;
+  height: 170px;
+}
+.cropped.cropped-modal.cropped-image a.thumb img{
+  width: 50%
+}
 .cropped > a.thumb{
   width: 100%;
   position: relative; 
@@ -3620,14 +3634,110 @@ table tr.no-bg td{
 .browse-file{
   color: #949497;
 }
-.browse-file button{
+.browse-file button,
+.browse-file .file-input-wrapper{
   margin-right: 5px;
 }
 .underlined{
   text-decoration: underline;
 }
+.btn-group.white .btn-default,
+.btn-group.white .btn-default:hover{
+  background: #fff !important;
+  box-shadow: none !important;
+  border: 1px solid #ebebeb !important;
+
+}
+#modal-image-upload .dropzone .dz-default.dz-message{
+  background-image: url(../images/modal-drop-file.jpg);
+  width: 130px;
+  height: 42px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -21px;
+}
+#modal-image-upload .dropzone{
+  min-height: 170px;
+}
+.btn-group.white .dropdown-toggle.btn-default:hover,
+.btn-group.white .dropdown-toggle.btn-default:active,
+.btn-group.white.open .dropdown-toggle.btn-default{
+  background-color: rgba(245, 245, 246, 0.8) !important;
+  border: 1px solid #ebebeb !important;
+}
+.page-container .main-content.gallery{
+  margin-bottom: 250px;
+}
+
 .checkbox-replace.checkbox-green-2 .cb-wrapper  .checked{
   background: #00a651;
+}
+.full{
+  width: 100%;
+}
+.divider-h{
+  border-left: 1px solid #c3c6ca;
+  width: 1px;
+  height: 16px;
+  margin: 7px 15px;
+}
+.dropzone.gallery{
+  min-height: 204px;
+}
+.form-group .fileinput {
+  width: 100%;
+}
+
+.form-group .fileinput .thumbnail{}
+.form-group .fileinput .thumbnail > img{
+  width: 100%;
+}
+.page-body .datatable.table.vlign-top tbody td{
+  vertical-align: top;
+}
+.table tbody td .description{
+  line-height: 1.6;
+  color: #979ca5;
+}
+.table td p.description strong{}
+.page-container .sidebar-menu .logo-env{
+  padding: 0 35px;
+}
+.login-page .language-selector{
+  color: #a4a4a4;
+}
+.login-page .register-steps{
+  color: #aaaaaa;
+}
+.sidebar-collapse-icon,
+.sidebar-mobile-menu{
+  margin: 25px 0;
+}
+.gallery-env.col-6 {}
+.gallery-env.col-6 .album .panel-heading > a{
+
+}
+.gallery-env.col-6 .album .panel-heading > a > img{
+ 
+}
+.gallery-env.col-6 .portrait .album .panel-heading{
+    text-align: center;
+}
+.gallery-env.col-6 .portrait .album .panel-heading > a{
+  display: inline-block; 
+}
+.gallery-env.col-6 .portrait .album .panel-heading > a > img{ 
+  width: auto;
+}
+
+@media (max-width: 1393px){
+  .with-table .btn-group .btn-parallel{
+    width: auto;
+  }
+
 }
 @media (max-width: 999px) {
   .mail-env .mail-body .mail-table tbody tr td.col-subject a {
@@ -5351,6 +5461,7 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
   -moz-background-clip: padding;
   border-radius: 3px;
   background-clip: padding-box;
+  background: #fff;
 }
 .gallery-env article.album header {
   position: relative;
@@ -5369,6 +5480,7 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
   -moz-background-clip: padding;
   border-radius: 3px 3px 0 0;
   background-clip: padding-box;
+  cursor: move;
 }
 .gallery-env article.album header .album-options {
   position: absolute;
@@ -5596,6 +5708,20 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
   font-weight: bold;
   color: #4f5259;
 }
+.toolbar-gallery{
+  background: #fafafb;
+  border-top: 1px solid #ededed;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.toolbar-gallery .icon-group{
+  padding-top: 7px;
+  color: #8d929a;
+}
+.toolbar-gallery .icon-group a{
+   color: #8d929a;
+   text-decoration: underline;
+}
 .modal .croppable-image {
   border: 4px solid rgba(235, 235, 235, 0.5);
 }
@@ -5617,6 +5743,10 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 }
 .gallery-image-edit-env img {
   width: 100%;
+}
+.popover{
+  width: 700px;
+  white-space: pre-line;
 }
 .gallery-image-edit-env .close {
   position: absolute;

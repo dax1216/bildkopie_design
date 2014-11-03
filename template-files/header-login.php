@@ -8,7 +8,7 @@
 	<meta name="description" content="Neon Admin Panel" />
 	<meta name="author" content="" />
 	
-	<title>Neon | Login</title>
+	<title>Bildkopie | Login</title>
 	
 
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css">
@@ -33,7 +33,7 @@
 	
 	
 </head>
-<body class="page-body login-page login-form-fall" data-url="http://neon.dev">
+<body class="page-body login-page login-form-fall rcdev" data-url="http://neon.dev">
 
 
 <!-- This is needed when you send requests via Ajax --><script type="text/javascript">
