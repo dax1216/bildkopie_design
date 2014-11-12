@@ -3,32 +3,32 @@
 <div class="panel panel-primary">
 	<div class="panel-heading paddup">		
 		<div class="row">
-			<div class="col-sm-6">							
+			<div class="col-lg-6 col-sm-6">							
 				<form class="form-horizontal form-groups-bordered">
-					<div class="row">
-						<div class="col-sm-7">														
-							<div class="col-sm-4">
-								<select name="test" class="selectboxit">	
-									<option value="10">10</option>						
-									<option value="20">20</option>						
-									<option value="30">30</option>				
-								</select>
-							</div>
-							<label for="field-1" class="col-sm-5 control-label align-left">records per page</label>	
-						</div>						
+					<div class="row">																				
+						<div class="col-sm-4 col-lg-3 max-sm">
+							<select name="test" class="selectboxit">	
+								<option value="10">10</option>						
+								<option value="20">20</option>						
+								<option value="30">30</option>				
+							</select>
+						</div>
+						<label for="field-1" class="col-sm-5 control-label align-left">records per page</label>												
 					</div>
 				</form>			
 			</div>	
-			<div class="col-sm-5 col-sm-offset-1">	
+			<div class="col-lg-6 col-sm-6">	
 				<form class="form-horizontal form-groups-bordered">
 					<div class="row">
-						<div class="col-sm-7">
-							<label for="field-1" class="col-sm-3 control-label">Search:</label>								
-							<div class="col-sm-9">
-								<input type="text" class="form-control" id="field-1" >
+						<div class="col-sm-6">
+							<div class="row">
+								<label for="field-1" class="col-sm-3 control-label">Search:</label>								
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="field-1" >
+								</div>
 							</div>
 						</div>
-						<div class="col-sm-5">
+						<div class="col-sm-6">
 							<select name="test" class="selectboxit">							
 								<optgroup label="Status wahlen">
 									<option value="10">Status wahlen</option>						
@@ -43,17 +43,17 @@
 		</div>
 	</div>
 		
-	<table class="table table-condensed table-bordered table-hover table-striped table-responsive">
+	<table class="table table-condensed table-bordered table-hover table-striped table-responsive nowrap">
 		<thead>
 			<tr>
 				<th width="5%">ID</th>
 				<th width="15%">Datum</th>
 				<th width="20%">Name</th>
-				<th width="30%">Labor</th>
-				<th width="5%">hr Erlös</th>
-				<th width="5%">Preis</th>
+				<th width="20%">Labor</th>
+				<th width="8%">hr Erlös</th>
+				<th width="8%">Preis</th>
 				<th width="15%">Status</th>
-				<th width="5%">Aktion</th>
+				<th width="9%">Aktion</th>
 			</tr>
 		</thead>			
 		<tbody>
@@ -83,7 +83,7 @@
 					</div>					
 				</td>
 				<td>
-					<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -117,7 +117,7 @@
 					</div>
 				</td>
 				<td>
-					<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -150,7 +150,7 @@
 					</div>					
 				</td>
 				<td>
-					<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -183,7 +183,7 @@
 					</div>
 				</td>
 				<td>
-					<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -216,7 +216,7 @@
 					</div>
 				</td>
 				<td>
-					<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -249,7 +249,7 @@
 					</div>
 				</td>
 				<td>
-					<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -282,7 +282,7 @@
 					</div>
 				</td>
 				<td>
-					<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>

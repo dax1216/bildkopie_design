@@ -5,7 +5,7 @@
 	</div>
 	<div class="col-sm-6">
 		<div class="row">
-			<div class="col-sm-4 pull-right align-right">
+			<div class="col-sm-12 pull-right align-right">
 				<div class="btn-group" data-toggle="buttons">
 					<label class="btn btn-white">
 						<input type="radio" name="options" id="option1"><i class="glyphicon glyphicon-minus"></i>

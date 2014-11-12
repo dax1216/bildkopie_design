@@ -35,9 +35,9 @@
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Status</strong></label>						
 										<div class="col-sm-7">
-											<div class="btn-group both-icon form-control">
-												<button  onclick="jQuery('#modal-image-upload').modal('show');" type="button" class="btn btn-red">	<i class="entypo-upload"></i> 2 Uploads erforderlich</button>												
-												<button type="button" class="btn btn-red ">
+											<div class="btn-group both-icon form-control btn-sm-controled">
+												<button  onclick="jQuery('#modal-image-upload').modal('show');" type="button" class="btn btn-red btn-text">	<i class="entypo-upload"></i> 2 Uploads erforderlich</button>												
+												<button type="button" class="btn btn-red btn-c-icon">
 													<i class="entypo-down"></i>
 												</button>
 											</div>
@@ -101,7 +101,7 @@
 
 		<div class="row">
 			<div class="col-sm-12">
-				<div class="panel panel-default" data-collapsed="0"><!-- to apply shadow add class "panel-shadow" -->
+				<div class="panel panel-default" data-collapsed="1"><!-- to apply shadow add class "panel-shadow" -->
 					<!-- panel head -->
 					<div class="panel-heading">
 						<div class="panel-title">Interne Notiz</div>
@@ -186,7 +186,7 @@
 												<label class="col-sm-5 control-label"></label>						
 												<div class="col-sm-7">
 													<p class="form-control">
-														<button type="button" class="btn btn-blue btn-icon icon-left">
+														<button type="button" onclick="jQuery('#modal-kunden-bearbeiten-Lieferadresse').modal('show');" class="btn btn-blue btn-icon icon-left">
 															Kundendaden bearbeiten
 															<i class="entypo-pencil"></i>
 														</button>
@@ -246,7 +246,7 @@
 												<label class="col-sm-5 control-label"></label>						
 												<div class="col-sm-7">
 													<p class="form-control">
-														<button type="button" class="btn btn-blue btn-icon icon-left">
+														<button type="button" onclick="jQuery('#modal-kunden-bearbeiten-Lieferadresse').modal('show');" class="btn btn-blue btn-icon icon-left">
 															Lieveradresse bearbeiten
 															<i class="entypo-pencil"></i>
 														</button>
@@ -272,7 +272,7 @@
 		<div class="panel panel-primary">
 			<div class="panel-heading paddup">		
 				<div class="row">
-					<div class="col-sm-6">							
+					<div class="col-lg-6 col-sm-6">							
 						<form class="form-horizontal form-groups-bordered">
 							<div class="row">
 								<div class="col-sm-7">
@@ -281,7 +281,7 @@
 							</div>
 						</form>			
 					</div>	
-					<div class="col-sm-2 col-sm-offset-4">	
+					<div class="col-lg-3 col-sm-4 col-sm-offset-2 col-lg-offset-3">	
 						<form class="form-horizontal form-groups-bordered">
 							<div class="row">
 								<div class="col-sm-12">

@@ -7,11 +7,11 @@
 	<?php get_template_part('toolbar'); ?>	
 
 	
-<button type="button" class="btn btn-red btn-icon icon-left pull-right" style="margin-left:10px">
+<button type="button" class="btn btn-red btn-icon icon-left pull-right " style="margin-left:10px">
 	Album loscen
 	<i class="entypo-cancel"></i>
 </button>
-<button type="button" class="btn btn-default btn-icon icon-left pull-right" >
+<button type="button" class="btn btn-default btn-icon icon-left pull-right edit-album " >
 	Album bearbeiten
 	<i class="entypo-pencil"></i>
 </button>
@@ -25,6 +25,6 @@
 <?php get_template_part('GalleryUpload') ?>
 
 </div>
-
-
+<?php get_template_part('ModalSendGallLink') ?>
+<?php  get_template_part('ModalEditAlbum');?>
 <?php get_footer('user'); ?>

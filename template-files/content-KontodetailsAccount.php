@@ -113,10 +113,13 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="row">
-					<div class="col-sm-9 col-sm-offset-1 infotext">
-						<h3>Ihre Stammdaten</h3>
+					<div class="col-sm-9 col-sm-offset-1 ">
+						<div class="infotext">
+								<h3>Ihre Stammdaten</h3>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+					
+						</div>
 					</div>
 				</div>
 			</div>
@@ -247,8 +250,8 @@
 			<div class="col-sm-6">
 				<div class="row">									
 
-					<div class="col-sm-9 col-sm-offset-1 infotext">
-						<h3>Firmendaten</h3>
+					<div class="col-sm-9 col-sm-offset-1 ">
+							<div class="infotext"><h3>Firmendaten</h3>
 						<p>Werden auch als Impressum und Rechnungsdaten verwendet!!!
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 						<p>Mir ist bewusst, dass ich nur zum Ausweis von Mehrwertsteuer berechtigt bin, wenn beim Finanzamt eine Registrierung als umsatzsteuerausweisberechtigter Unternehmer erfolgt ist.</p>
@@ -256,6 +259,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 						<p>Mir ist desweiteren bewusst, dass fotograf.de keine Pflicht zur Überprüfung des von mir eingestellten Mehrwertsteuersatzes trifft.</p>
 						<p>Ich erkenne an, dass fotograf.de nicht für die auf Basis der von mir angegebenen Informationen ausgestellten Rechnungen haftet. </p>
 					</div>
+						</div>
 				</div>
 			</div>
 			

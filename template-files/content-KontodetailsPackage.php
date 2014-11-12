@@ -116,13 +116,15 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="row">
-					<div class="col-sm-9 col-sm-offset-1 infotext">
-						<h3>Paket Informationen</h3>
+					<div class="col-sm-9 col-sm-offset-1">
+						<div class="infotext">
+							<h3>Paket Informationen</h3>
 						<p>Keine Einrichtungsgebühr. Monatlich kündbar. Individuelle Erweiterungen der Pakete möglich. Tägliche Auszahlung Ihres Guthabens.</p>
 						<p><strong>Individuelle Konditionen ab 3000 EUR Nettoumsatz/Monat</strong><br/>
 Falls Sie planen einen Umsatz von über 5000 EUR zzgl. MwSt. pro Monat mit dem Onlineverkauf von Fotos zu erzielen, erstellen wir Ihnen gerne ein individuelles Angebot mit vergünstigten Konditionen. Nehmen Sie hierzu einfach Kontakt mit uns auf.</p>
 						<p>Sie erreichen uns per Telefon: +43 (0)699 11 442 260
 Oder schreiben Sie uns eine E-Mail.</p>
+						</div>
 					</div>
 				</div>
 			</div>

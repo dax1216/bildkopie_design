@@ -59,8 +59,9 @@
 			
 			<div class="col-sm-6">
 				<div class="row">
-					<div class="col-sm-9 col-sm-offset-1 infotext bg-red">
-						<h3>Bestätigungscode</h3>
+					<div class="col-sm-9 col-sm-offset-1 ">
+						<div class="infotext bg-red">
+							<h3>Bestätigungscode</h3>
 						<p>Um Ihre Bankdaten zu bestätigen haben wir Ihnen enen minimalen Cent Betrag auf fongendes Konto Überwiesen.</p>
 							<ul class="unstyled">
 								<li><strong>Max Mustermann</strong></li>
@@ -76,10 +77,13 @@
 							
 							
 						</div>
+						</div>
 					</div>
-					<div class="col-sm-9 col-sm-offset-1 infotext">
-						<h3>Abrechnungseinstellungen</h3>
+					<div class="col-sm-9 col-sm-offset-1 ">
+						<div class="infotext">
+							<h3>Abrechnungseinstellungen</h3>
 						<p>Wir benötigen Ihre Kontodaten für den Ausgleich Ihres Bildkopie-Kontos. Wir nutzen diese Kontodaten sowohl für den Einzug der monatlichen Grundgebühr als auch für Ihre Auszahlung, wenn Sie durch Fotobestellungen auf Ihrer Seite ein positives Guthaben bei uns besitzen. Bitte geben Sie entweder eine deutsche oder eine europäische Bankverbindung an.</p>
+						</div>
 					</div>
 				</div>
 			</div>

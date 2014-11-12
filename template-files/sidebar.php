@@ -5,7 +5,7 @@
 			
 			<!-- logo -->
 			<div class="logo">
-				<a href="<?php siteInfo('url'); ?>/backend_photographer/index.php">
+				<a href="<?php siteInfo('url'); ?>/index.php">
 					<img src="assets/images/logo.png" width="142" alt="" />
 				</a>
 			</div>
@@ -36,7 +36,7 @@
 		
 		
 			<li class="active active">
-				<a href="<?php siteInfo('url'); ?>/backend_photographer/index.php">
+				<a href="<?php siteInfo('url'); ?>/index.php">
 					<i class="entypo-gauge"></i>
 					<span>Dashboard</span>
 				</a>
@@ -49,12 +49,12 @@
 					<span class="badge badge-success">3</span>
 				</a>
 				<ul>
-					<li><a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php">Bestellungen</a></li>
+					<li><a href="<?php siteInfo('url');?>/Bestellungen-Liste-file.php">Bestellungen</a></li>
 					<li><a href="#">Rechnungen</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Liste.php">
+				<a href="<?php siteInfo('url');?>/Kunden-Liste.php">
 					<i class="entypo-users"></i>
 					<span>Kunden</span>
 				</a>
@@ -65,9 +65,9 @@
 					<span>Galerien</span>
 				</a>
 				<ul>	
-					<li><a href="<?php siteInfo('url');?>/backend_photographer/Alben.php">Alben</a></li>
-					<li><a href="<?php siteInfo('url');?>/backend_photographer/Alben-KategorieTabelle.php">Kategorien</a></li>
-					<li><a href="<?php siteInfo('url');?>/backend_photographer/Alben-Wasserzeichen.php">Wasserzeinchen</a></li>
+					<li><a href="<?php siteInfo('url');?>/Alben.php">Alben</a></li>
+					<li><a href="<?php siteInfo('url');?>/Alben-KategorieTabelle.php">Kategorien</a></li>
+					<li><a href="<?php siteInfo('url');?>/Alben-Wasserzeichen.php">Wasserzeinchen</a></li>
 				</ul>
 			</li>
 			<li>
@@ -103,6 +103,20 @@
 					<li><a href="#"><span>Hilfe</span></a></li>			
 					<li><a href="#"><span>Support Tickets</span></a></li>			
 				</ul>
+			</li>
+			<li>
+				<a href="<?php siteInfo('url');?>/login.php">
+					<i class="entypo-user"></i>
+					<span>Login</span>
+				</a>
+				
+			</li>
+			<li>
+				<a href="<?php siteInfo('url');?>/register.php">
+					<i class="entypo-user"></i>
+					<span>Register</span>
+				</a>
+				
 			</li>
 		</ul>
 				

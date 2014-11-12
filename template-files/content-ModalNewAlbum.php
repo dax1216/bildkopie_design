@@ -175,3 +175,15 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">	
+	jQuery(document).ready(function($)
+	{
+		$(".new-album").on("click", function(ev)
+		{
+			ev.preventDefault();
+			$("#new-album").modal('show');
+		});
+		
+	});
+</script>

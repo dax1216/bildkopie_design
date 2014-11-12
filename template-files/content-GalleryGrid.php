@@ -37,7 +37,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
-									<li><a href="#"><i class="entypo-book-open"></i> Öffnen</a></li>
+									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
 									<li><a href="#" class="edit-album"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
@@ -81,7 +81,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
-									<li><a href="#"><i class="entypo-book-open"></i> Öffnen</a></li>
+									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
 									<li><a href="#" class="edit-album"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
@@ -125,7 +125,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
-									<li><a href="#"><i class="entypo-book-open"></i> Öffnen</a></li>
+									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
 									<li><a href="#" class="edit-album"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
@@ -176,7 +176,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
-									<li><a href="#"><i class="entypo-book-open"></i> Öffnen</a></li>
+									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
 									<li><a href="#" class="edit-album"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
@@ -220,7 +220,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
-									<li><a href="#"><i class="entypo-book-open"></i> Öffnen</a></li>
+									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
 									<li><a href="#"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
@@ -264,7 +264,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
-									<li><a href="#"><i class="entypo-book-open"></i> Öffnen</a></li>
+									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
 									<li><a href="#"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
@@ -315,7 +315,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
-									<li><a href="#"><i class="entypo-book-open"></i> Öffnen</a></li>
+									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
 									<li><a href="#"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
@@ -359,7 +359,7 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
-									<li><a href="#"><i class="entypo-book-open"></i> Öffnen</a></li>
+									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
 									<li><a href="#"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>

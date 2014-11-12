@@ -2453,12 +2453,9 @@ output {
 .fg-label .form-control{
   border: 0;
   padding-left: 0;
+  line-height: 1.7;
 }
-.fg-label .form-group .col-sm-7,
-.fg-label .form-group .col-sm-6{
 
-  padding-left: 0;
-}
 .form-control:focus {
   border-color: #c8cdd7;
   outline: 0;

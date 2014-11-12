@@ -1,6 +1,6 @@
 <div class="toolbar-gallery">
 <div class="row">
-	<div class="col-sm-8 ">
+	<div class="col-sm-7 ">
 		<div class="icon-group pull-left">
 			<i class="entypo-picture"></i> 6 Bilder &nbsp;&nbsp;
 			<i class="entypo-drive"></i> Albumgröße: 55,7 MB &nbsp;&nbsp;
@@ -9,10 +9,10 @@
 		<div class="divider-h pull-left"></div>
 		<div class="icon-group pull-left">
 			<i class="entypo-export"></i> <a href="#">Vorschau</a> &nbsp;&nbsp;
-			<i class="entypo-link"></i> <a href="#">Link Senden</a>
+			<i class="entypo-link"></i> <a href="#" class="send-gallery-link">Link Senden</a>
 		</div>
 	</div>
-	<div class="col-sm-4">
+	<div class="col-sm-5">
 		<div class="row">
 			<div class="with-table">
 				<div class="col-sm-6">
@@ -46,3 +46,5 @@
 	</div>
 </div>
 </div>
+
+

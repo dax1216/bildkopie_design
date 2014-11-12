@@ -68,3 +68,14 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">	
+	jQuery(document).ready(function($)
+	{
+		
+		$(".send-gallery-link").on("click", function(ev)
+		{
+			ev.preventDefault();
+			$("#send-gallery-link").modal('show');
+		});
+	});
+</script>

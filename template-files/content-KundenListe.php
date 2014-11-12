@@ -6,8 +6,8 @@
 			<div class="col-sm-6 col-md-6">							
 				<form class="form-horizontal form-groups-bordered">
 					<div class="row">
-						<div class="col-sm-12 col-md-7">														
-							<div class="col-sm-4">
+						<div class="col-sm-12">														
+							<div class="col-sm-5">
 								<select name="test" class="selectboxit">	
 									<option value="10">10</option>						
 									<option value="20">20</option>						
@@ -19,7 +19,7 @@
 					</div>
 				</form>			
 			</div>	
-			<div class="col-sm-6 col-md-5 col-md-offset-1">	
+			<div class="col-sm-6 col-md-6">	
 				<form class="form-horizontal form-groups-bordered">
 					<div class="row">
 						<div class="col-md-7 col-sm-6">

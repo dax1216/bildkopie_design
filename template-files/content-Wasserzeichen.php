@@ -98,10 +98,12 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="row">
-					<div class="col-sm-7 col-sm-offset-1 infotext">
-						<h3>Ihr Wasserzeichen</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					<div class="col-lg-7 col-md-8 col-lg-offset-1">
+						<div class="infotext">
+							<h3>Ihr Wasserzeichen</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 					
+						</div>
 					</div>
 				</div>
 			</div>
