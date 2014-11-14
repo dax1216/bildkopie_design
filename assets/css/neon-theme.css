@@ -5145,9 +5145,6 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 .gallery-env article.album footer .btn-group{
   padding: 3px 0;
 }
-.gallery-env article.album footer .btn-clear .dropdown-menu{
-  margin-top: 10px;
-}
 .gallery-env article.album footer:before,
 .gallery-env article.album footer:after {
   content: " ";

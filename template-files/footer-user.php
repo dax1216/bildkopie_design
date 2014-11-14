@@ -69,6 +69,28 @@
 
 		
 	</script>
+
+	<script type="text/javascript">
+	jQuery(document).ready(function($)
+		{
+			if(isMyStuffScrolling()){
+				jQuery('body').addClass('scoll');
+			  }else{
+				jQuery('body').addClass('no-scroll');
+			}
+
+			
+		});
+
+
+		function isMyStuffScrolling() {
+		  var docHeight = $(document).height();
+		  var scroll    = $(window).height() ;//+ $(window).scrollTop();
+		  if(docHeight > scroll) return true;
+		  else return false;
+		}
+
+	</script>
 	<!-- Bottom Scripts -->
 	<script src="<?php siteInfo('template_url'); ?>/js/jcrop/jquery.Jcrop.min.js"></script>
 

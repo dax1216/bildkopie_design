@@ -149,8 +149,8 @@
 		</script>
 
 
-<div class="row">
-	<div class="col-sm-3">
+<div class="row stats">
+	<div class="col-sm-3 ">
 	
 		<div class="tile-stats tile-red">
 			<div class="icon"><i class="entypo-upload"></i></div>

@@ -78,7 +78,7 @@
 						<span class="hidden-xs">Ihr Paket</span>
 					</a>
 				</li>
-				<li>
+				<li >
 					<a href="#billing" data-toggle="tab">
 						<span class="visible-xs"><i class="entypo-cog"></i></span>
 						<span class="hidden-xs">Abrechnung</span>
@@ -113,7 +113,7 @@
 			<div class="tab-pane " id="package">		
 				<?php get_template_part('KontodetailsPackage'); ?>		
 			</div>
-			<div class="tab-pane" id="billing">
+			<div class="tab-pane " id="billing">
 				<?php get_template_part('KontodetailsBilling'); ?>
 			</div>
 			

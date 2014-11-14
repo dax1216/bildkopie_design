@@ -389,7 +389,7 @@ table tr.no-bg td{
 }
 .sidebar-collapse-icon,
 .sidebar-mobile-menu{
-  margin: 25px 0;
+  margin: 32px 0;
 }
 .gallery-env.col-6 {}
 .gallery-env.col-6 .album .panel-heading > a{
@@ -402,16 +402,46 @@ table tr.no-bg td{
     text-align: center;
 }
 .gallery-env.col-6 .portrait .album .panel-heading > a{
-  display: inline-block; 
+  display: block; 
 }
 .gallery-env.col-6 .portrait .album .panel-heading > a > img{ 
   width: auto;
+  margin:0 auto;
+  width: 40%;
+}
+.gallery-env article.album footer .btn-group{
+  padding: 0;
+  width: 50%;
+}
+
+.gallery-env article.album footer .btn-group .dropdown-toggle{
+  float: right;
+}
+.gallery-env article.album footer .album-images-count{
+  width: 50%;
+
+  padding: 8px 15px;
+  overflow: hidden;  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.gallery-env article.album footer .album-options{
+  padding: 7px 10px;
 }
 .table thead th{
 }
 .page-container .main-wrapper{
 
 }
+
+.gallery-env.grid article.album footer .btn-group{
+  width: 25%;
+}
+.gallery-env.grid article.album footer .album-images-count{
+  width: 75%;
+  padding-right: 0;
+}
+
 .tool-bar{
   background: #2d3641;
   border-left: 1px solid #525a65;
@@ -428,7 +458,6 @@ table tr.no-bg td{
 }
 .tool-bar .breadcrumbs{
   color:#98a0ab;
-  padding-bottom: 4px;
 }
 .tool-bar .breadcrumbs > ul{
   padding-left: 0;
@@ -445,12 +474,17 @@ table tr.no-bg td{
 }
 .tool-bar  h1{
   color: #c1c2c7;
-  font-size: 22px;
+  font-size: 20px;
   font-family: Helvetica;
   font-weight: bold;
+  margin-top:13px;
+  margin-bottom: 7px;
 }
 .tool-bar h1 i:before{
   margin-left: 0;
+}
+.links-list{
+  margin-bottom: 0;
 }
 .notifications.dropdown .dropdown-menu{
   width: 314px;
@@ -487,10 +521,191 @@ table tr.no-bg td{
 .profile-env > header .profile-info-sections > li{
   padding: 0 25px;
 }
-@media (min-width: 1391px){
-  .with-table .btn-group  .btn-parallel{
-    width: 78%;
+
+.visible-ib-lg{
+  display: none;
+}
+.mail-env{
+  margin-left: -20px;
+}
+.mail-env .mail-body .mail-header,
+.mail-env .mail-body .mail-compose{
+  padding-right: 0;
+}
+
+.toolbar-gallery .btn-parallel{
+  width: 77%;
+}
+
+/*Tables Order*/
+.table.orders th{}
+.table.orders th.id{}
+.table.orders th.date{}
+.table.orders th.name{}
+.table.orders th.printing-company{}
+.table.orders th.your-profit{}
+.table.orders th.price{}
+.table.orders th.status{}
+.table.orders th.action{}
+
+.table.orders .btn-parallel{
+  width: 80%;
+}
+.table.orders .action a,
+.table.orders .action button.btn{
+    width: 100%;
+    display: block;
   }
+
+/*Tables Categories*/  
+.table.categories .status{
+  width: 54px;
+}
+.table.categories .title{}
+.table.categories .action{
+  width: 175px;
+}
+.table.categories .action .btn-parallel{
+    width: 77%;
+  }
+
+/*Tables Customers*/
+.table.customers{}
+.table.customers .action{
+  width: 175px;
+}
+
+.table.customers .email{
+  text-align: center;
+}
+
+.table.customers .action button.btn-parallel{
+    width: 77%;
+  }
+
+.row.refined{
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.row.refined .col-xs-1, 
+.row.refined .col-sm-1, 
+.row.refined .col-md-1, 
+.row.refined .col-lg-1, 
+.row.refined .col-xs-2,
+.row.refined .col-sm-2,
+.row.refined .col-md-2,
+.row.refined .col-lg-2,
+.row.refined .col-xs-3,
+.row.refined .col-sm-3,
+.row.refined .col-md-3,
+.row.refined .col-lg-3,
+.row.refined .col-xs-4,
+.row.refined .col-sm-4,
+.row.refined .col-md-4,
+.row.refined .col-lg-4,
+.row.refined .col-xs-5,
+.row.refined .col-sm-5,
+.row.refined .col-md-5,
+.row.refined .col-lg-5,
+.row.refined .col-xs-6,
+.row.refined .col-sm-6,
+.row.refined .col-md-6,
+.row.refined .col-lg-6,
+.row.refined .col-xs-7,
+.row.refined .col-sm-7,
+.row.refined .col-md-7,
+.row.refined .col-lg-7,
+.row.refined .col-xs-8,
+.row.refined .col-sm-8,
+.row.refined .col-md-8,
+.row.refined .col-lg-8,
+.row.refined .col-xs-9,
+.row.refined .col-sm-9,
+.row.refined .col-md-9,
+.row.refined .col-lg-9,
+.row.refined .col-xs-10,
+.row.refined .col-sm-10,
+.row.refined .col-md-10,
+.row.refined .col-lg-10,
+.row.refined .col-xs-11,
+.row.refined .col-sm-11,
+.row.refined .col-md-11,
+.row.refined .col-lg-11,
+.row.refined .col-xs-12,
+.row.refined .col-sm-12,
+.row.refined .col-md-12,
+.row.refined .col-lg-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.margin-r-n{
+  margin-right: -1px;
+}
+.ui-sortable-placeholder{
+  margin-bottom: 29px;
+}
+.gallery-env article.album .album-info h3{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+.icons-small-devices span{
+  display: inline-block;
+}
+.scroll.modal-open .page-container{
+  padding-right: 15px;
+}
+.no-scroll.modal-open .page-container{
+  padding-right: 0;
+}
+#modal-image-upload .modal-dialog{
+  height: 85%;
+}
+#modal-image-upload .modal-content{
+    height: 90%;
+}
+#modal-image-upload .modal-body{
+  overflow: scroll;
+  height: 85%;
+}
+
+@media (max-width: 1375px){
+  .toolbar-gallery .btn-parallel{
+    width: auto;
+  }
+
+
+}
+
+@media (min-width: 1200px){
+  .visible-ib-lg{
+    display: inline-block;
+  }
+
+}
+
+@media (max-width: 1297px){
+  .gallery-env.grid article.album footer .btn-group{
+    float: none;
+    width: 100%;
+    border-top: 1px solid #f0f0f0;
+  }
+  .gallery-env.grid article.album footer .album-images-count{
+    float: none;
+    width: 100%;
+    overflow: hidden;
+  }
+ .gallery-env.grid .pull-right > .dropdown-menu{
+    left: 0;
+  }
+}
+
+@media (min-width: 1391px){
+  .table.orders .btn-group  .btn-parallel{
+    width: 86%;
+  }
+  
 }
 
 @media (max-width: 1332px){
@@ -498,6 +713,24 @@ table tr.no-bg td{
     padding: 10px 13px;
     margin-right: 2px;
   }
+}
+
+
+@media (max-width: 1295px){
+  .gallery-env article.album footer .album-images-count{
+    overflow: inherit;
+    float: none;
+    width: 100%;
+  }
+  .gallery-env article.album footer .btn-group{
+    float: none;
+     width: 100%;
+     border-top: 1px solid #f0f0f0;
+  }
+  .gallery-env article.album footer .btn-group .dropdown-toggle{
+    float: none;
+  }
+
 }
 
 @media (max-width: 1150px){
@@ -514,7 +747,7 @@ table tr.no-bg td{
 }
 
 @media (max-width: 1024px){
-	.profile-env section.profile-info-tabs .nav-tabs li a{
+  .profile-env section.profile-info-tabs .nav-tabs li a{
    
   }
   .btn-sm-controled{}
@@ -525,6 +758,33 @@ table tr.no-bg td{
   .btn-sm-controled .btn-c-icon{
     padding: 5px 3px;
   }
+  .table.orders .printing-company{
+    text-align: center;
+  }
+
+  .mail-env .mail-body .mail-header .mail-title{
+    width: 61%;
+  }
+  .mail-env .mail-body .mail-header .mail-links{
+    width: 39%;
+    text-align: right;
+  }
+  .mail-env .mail-body{
+    width: 69%;
+  }
+  .mail-env .mail-sidebar{
+    width: 31%;
+  }
+
+  .tile-stats .num{
+    font-size: 30px;
+  }
+
+  .row.stats  .tile-stats {
+    min-height: 170px;
+  }
+
+
 }
 
 
@@ -543,5 +803,28 @@ table tr.no-bg td{
 @media (max-width: 768px){
   .profile-env section.profile-info-tabs .nav-tabs li a{
     padding: 10px 9px;
+  }
+  .table.orders .action{
+    display: none;
+  }
+
+  .table.customers .action button.btn-parallel {
+    width: 63%;
+  }
+
+  .mail-env .mail-body .mail-header .mail-links{
+    width: 100%;
+  }
+
+
+  .tile-stats .num{
+    font-size: 26px;
+  }
+
+  .toolbar-gallery .btn-parallel {
+    width:auto;
+  }
+    .gallery-env article.album footer .pull-right > .dropdown-menu{
+    left: 0;
   }
 }

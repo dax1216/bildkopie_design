@@ -5,17 +5,15 @@
 		<div class="row"> 
 			<div class="col-sm-6 col-md-6">							
 				<form class="form-horizontal form-groups-bordered">
-					<div class="row">
-						<div class="col-sm-12">														
-							<div class="col-sm-5">
-								<select name="test" class="selectboxit">	
-									<option value="10">10</option>						
-									<option value="20">20</option>						
-									<option value="30">30</option>				
-								</select>
-							</div>
-							<label for="field-1" class="col-sm-5 control-label align-left">records per page</label>	
-						</div>						
+					<div class="row">												
+						<div class="col-sm-5  max-sm">
+							<select name="test" class="selectboxit">	
+								<option value="10">10</option>						
+								<option value="20">20</option>						
+								<option value="30">30</option>				
+							</select>
+						</div>
+						<label for="field-1" class="col-sm-5 control-label align-left">records per page</label>						
 					</div>
 				</form>			
 			</div>	
@@ -23,9 +21,11 @@
 				<form class="form-horizontal form-groups-bordered">
 					<div class="row">
 						<div class="col-md-7 col-sm-6">
-							<label for="field-1" class="col-sm-3 control-label">Search:</label>								
-							<div class="col-sm-9">
-								<input type="text" class="form-control" id="field-1" >
+							<div class="row">
+								<label for="field-1" class="col-sm-3 control-label">Search:</label>								
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="field-1" >
+								</div>
 							</div>
 						</div>
 						<div class="col-md-5 col-sm-6">
@@ -44,16 +44,16 @@
 		</div>
 	</div>
 		
-	<table class="table table-condensed table-bordered table-hover table-striped table-responsive">
+	<table class="table customers table-condensed table-bordered table-hover table-striped table-responsive">
 		<thead>
 			<tr>
-				<th>Name</th>
-				<th>Straße</th>
-				<th>Ort</th>
-				<th>Land</th>
-				<th>Telefon</th>
-				<th>E-Mail</th>
-				<th>Aktion</th>
+				<th class="name">Name</th>
+				<th class="street" >Straße</th>
+				<th class="city">Ort</th>
+				<th class="country">Land</th>
+				<th class="phone">Telefon</th>
+				<th class="email">E-Mail</th>
+				<th class="action">Aktion</th>
 			</tr>
 		</thead>			
 		<tbody>
@@ -63,8 +63,8 @@
 				<td>2213 Bockfließ</td>
 				<td>Österreich</td>
 				<td>0664-5308695</td>
-				<td>claudia.musil@gmail.com</td>
-				<td>
+				<td class="email"><a href="mailto:claudia.musil@gmail.com"><i class="entypo-mail"></i></a></td>
+				<td class="action">
 					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
@@ -86,8 +86,8 @@
 				<td>2213 Bockfließ</td>
 				<td>Österreich</td>
 				<td>0664-5308695</td>
-				<td>claudia.musil@gmail.com</td>
-				<td>
+				<td class="email"><a href="mailto:claudia.musil@gmail.com"><i class="entypo-mail"></i></a></td>
+				<td class="action">
 					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
@@ -109,8 +109,8 @@
 				<td>2213 Bockfließ</td>
 				<td>Österreich</td>
 				<td>0664-5308695</td>
-				<td>claudia.musil@gmail.com</td>
-				<td>
+				<td class="email"><a href="mailto:claudia.musil@gmail.com"><i class="entypo-mail"></i></a></td>
+				<td class="action">
 					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
@@ -132,8 +132,8 @@
 				<td>2213 Bockfließ</td>
 				<td>Österreich</td>
 				<td>0664-5308695</td>
-				<td>claudia.musil@gmail.com</td>
-				<td>
+				<td class="email"><a href="mailto:claudia.musil@gmail.com"><i class="entypo-mail"></i></a></td>
+				<td class="action">
 					<div class="btn-group both-icon white ">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						

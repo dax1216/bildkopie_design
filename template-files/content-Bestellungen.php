@@ -2,10 +2,10 @@
 <h2 class="page-title">Bestellungen</h2>
 <div class="panel panel-primary">
 	<div class="panel-heading paddup">		
-		<div class="row">
+		<div class="row  refined">
 			<div class="col-lg-6 col-sm-6">							
 				<form class="form-horizontal form-groups-bordered">
-					<div class="row">																				
+					<div class="row refined">																				
 						<div class="col-sm-4 col-lg-3 max-sm">
 							<select name="test" class="selectboxit">	
 								<option value="10">10</option>						
@@ -19,7 +19,7 @@
 			</div>	
 			<div class="col-lg-6 col-sm-6">	
 				<form class="form-horizontal form-groups-bordered">
-					<div class="row">
+					<div class="row  refined">
 						<div class="col-sm-6">
 							<div class="row">
 								<label for="field-1" class="col-sm-3 control-label">Search:</label>								
@@ -43,25 +43,25 @@
 		</div>
 	</div>
 		
-	<table class="table table-condensed table-bordered table-hover table-striped table-responsive nowrap">
+	<table class="table orders table-condensed table-bordered table-hover table-striped table-responsive nowrap">
 		<thead>
 			<tr>
-				<th width="5%">ID</th>
-				<th width="15%">Datum</th>
-				<th width="20%">Name</th>
-				<th width="20%">Labor</th>
-				<th width="8%">hr Erlös</th>
-				<th width="8%">Preis</th>
-				<th width="15%">Status</th>
-				<th width="9%">Aktion</th>
+				<th class="id visible-lg">ID</th>
+				<th class="date">Datum</th>
+				<th class="name">Name</th>
+				<th class="printing-company">Labor</th>
+				<th class="your-profit">hr Erlös</th>
+				<th class="price">Preis</th>
+				<th class="status">Status</th>
+				<th class="action visible-lg">Aktion</th>
 			</tr>
 		</thead>			
 		<tbody>
 			<tr>
-				<td>546</td>
+				<td class="id visible-lg">546</td>
 				<td>29.07.2014 15:21</td>
-				<td>Claudia Musil <span class="label label-info">3 Produkte</span></td>
-				<td>Fotolabor <span class="label label-danger">Warte auf Upload</span></td>
+				<td>Claudia Musil <span class="label label-info visible-ib-lg">3 Produkte</span></td>
+				<td>Fotolabor <span class="label label-danger" data-toggle="tooltip" data-original-title="Warte auf Upload" data-placement="top"><span class="visible-ib-lg">Warte auf Upload</span></span></td>
 				<td>€ 46,80</td>
 				<td>€ 66,80</td>
 				<td>
@@ -82,7 +82,7 @@
 						</ul>
 					</div>					
 				</td>
-				<td>
+				<td class="action visible-lg">
 					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
@@ -91,10 +91,10 @@
 
 			</tr>
 			<tr>
-				<td>546</td>
+				<td class="id visible-lg">546</td>
 				<td>29.07.2014 15:21</td>
-				<td>Claudia Musil <span class="label label-info">3 Produkte</span></td>
-				<td>Fotolabor <span class="label label-warning">Warte auf Upload</span></td>
+				<td>Claudia Musil <span class="label label-info visible-ib-lg">3 Produkte</span></td>
+				<td>Fotolabor <span class="label label-warning" data-toggle="tooltip" data-original-title="Warte auf Upload" data-placement="top"><span class="visible-ib-lg">Warte auf Upload</span></span> </td>
 				<td>€ 46,80</td>
 				<td>€ 66,80</td>
 				<td>
@@ -116,7 +116,7 @@
 						</ul>
 					</div>
 				</td>
-				<td>
+				<td class="action visible-lg">
 					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
@@ -124,10 +124,10 @@
 				</td>
 			</tr>
 			<tr>
-				<td>546</td>
+				<td class="id visible-lg">546</td>
 				<td>29.07.2014 15:21</td>
-				<td>Claudia Musil <span class="label label-info">3 Produkte</span></td>
-				<td>Fotolabor <span class="label label-danger">Warte auf Upload</span></td>
+				<td>Claudia Musil <span class="label label-info visible-ib-lg">3 Produkte</span></td>
+				<td>Fotolabor <span class="label label-danger" data-toggle="tooltip" data-original-title="Warte auf Upload" data-placement="top"><span class="visible-ib-lg">Warte auf Upload</span></span></td>
 				<td>€ 46,80</td>
 				<td>€ 66,80</td>
 				<td>
@@ -149,7 +149,7 @@
 						</ul>
 					</div>					
 				</td>
-				<td>
+				<td class="action visible-lg">
 					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
@@ -157,10 +157,10 @@
 				</td>
 			</tr>
 			<tr>
-				<td>546</td>
+				<td class="id visible-lg">546</td>
 				<td>29.07.2014 15:21</td>
-				<td>Claudia Musil <span class="label label-info">3 Produkte</span></td>
-				<td>Fotolabor <span class="label label-danger">Warte auf Upload</span></td>
+				<td>Claudia Musil <span class="label label-info visible-ib-lg">3 Produkte</span></td>
+				<td>Fotolabor <span class="label label-danger" data-toggle="tooltip" data-original-title="Warte auf Upload" data-placement="top"><span class="visible-ib-lg">Warte auf Upload</span></span></td>
 				<td>€ 46,80</td>
 				<td>€ 66,80</td>
 				<td>
@@ -182,7 +182,7 @@
 						</ul>
 					</div>
 				</td>
-				<td>
+				<td class="action visible-lg">
 					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
@@ -190,10 +190,10 @@
 				</td>
 			</tr>
 			<tr>
-				<td>546</td>
+				<td class="id visible-lg">546</td>
 				<td>29.07.2014 15:21</td>
-				<td>Claudia Musil <span class="label label-info">3 Produkte</span></td>
-				<td>Fotolabor <span class="label label-danger">Warte auf Upload</span></td>
+				<td>Claudia Musil <span class="label label-info visible-ib-lg">3 Produkte</span></td>
+				<td>Fotolabor <span class="label label-danger" data-toggle="tooltip" data-original-title="Warte auf Upload" data-placement="top"><span class="visible-ib-lg">Warte auf Upload</span></span></td>
 				<td>€ 46,80</td>
 				<td>€ 66,80</td>
 				<td>
@@ -215,7 +215,7 @@
 						</ul>
 					</div>
 				</td>
-				<td>
+				<td class="action visible-lg">
 					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
@@ -223,10 +223,10 @@
 				</td>
 			</tr>
 			<tr>
-				<td>546</td>
+				<td class="id visible-lg">546</td>
 				<td>29.07.2014 15:21</td>
-				<td>Claudia Musil <span class="label label-info">3 Produkte</span></td>
-				<td>Fotolabor <span class="label label-blue">Warte auf Upload</span></td>
+				<td>Claudia Musil <span class="label label-info visible-ib-lg">3 Produkte</span></td>
+				<td>Fotolabor <span class="label label-blue" data-toggle="tooltip" data-original-title="Warte auf Upload" data-placement="top"><span class="visible-ib-lg">Warte auf Upload</span></span></td>
 				<td>€ 46,80</td>
 				<td>€ 66,80</td>
 				<td>
@@ -248,7 +248,7 @@
 						</ul>
 					</div>
 				</td>
-				<td>
+				<td class="action visible-lg">
 					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
@@ -256,10 +256,10 @@
 				</td>
 			</tr>
 			<tr>
-				<td>546</td>
+				<td class="id visible-lg">546</td>
 				<td>29.07.2014 15:21</td>
-				<td>Claudia Musil <span class="label label-info">3 Produkte</span></td>
-				<td>Fotolabor <span class="label label-success">Warte auf Upload</span></td>
+				<td>Claudia Musil <span class="label label-info visible-ib-lg">3 Produkte</span></td>
+				<td>Fotolabor <span class="label label-success" data-toggle="tooltip" data-original-title="Warte auf Upload" data-placement="top"> <span class="visible-ib-lg">Warte auf Upload</span></span></td>
 				<td>€ 46,80</td>
 				<td>€ 66,80</td>
 				<td>
@@ -281,7 +281,7 @@
 						</ul>
 					</div>
 				</td>
-				<td>
+				<td class="action visible-lg">
 					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht

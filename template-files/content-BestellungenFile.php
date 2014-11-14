@@ -298,23 +298,23 @@
 				</div>
 			</div>
 				
-			<table class="table table-bordered table-striped datatable" id="table-2">
+			<table class="table orders table-bordered table-striped datatable" id="table-2">
 				<thead>
 					<tr>
-						<th width="2%">
+						<th>
 							<div class="checkbox checkbox-replace">
 								<input type="checkbox" id="chk-1">
 							</div>
 						</th>
-						<th width="5%">Bild</th>
-						<th width="10%">Bildnummer</th>
-						<th width="15%">Porduktart</th>
-						<th width="10%">Check / Größe</th>
-						<th width="20%">Labor</th>
-						<th width="5%">Stück</th>
-						<th width="5%">Ihr Erlös</th>
-						<th width="5%">Preis</th>
-						<th width="10%">Aktion</th>
+						<th>Bild</th>
+						<th>Bildnummer</th>
+						<th>Porduktart</th>
+						<th>Check / Größe</th>
+						<th>Labor</th>
+						<th>Stück</th>
+						<th>Ihr Erlös</th>
+						<th>Preis</th>
+						<th class="action visible-lg">Aktion</th>
 						
 					</tr>
 				</thead>
@@ -348,14 +348,14 @@
 							<i class="entypo-cancel c-red"></i>  20 x 10 cm<br/>
 							<small>203 x 105, 300 dpi</small>
 						</td>
-						<td>
+						<td class="printing-company">
 							Fotolabor<br/>
-							<span class="label label-danger margin-0">Warte auf Upload</span>
+							<span class="label label-danger margin-0"><span class="visible-ib-lg">Warte auf Upload</span></span>
 						</td>
 						<td>1 Stk</td>
 						<td>€ 19,00</td>
 						<td>€ 19,90</td>
-						<td>
+						<td class="action visible-lg">
 							<button type="button" class="btn btn-red btn-icon icon-left">
 								Upload erforderlich
 								<i class="entypo-upload"></i>
@@ -389,14 +389,14 @@
 							<i class="fa fa-warning c-yellow"></i>  20 x 10 cm<br/>
 							<small>203 x 105, 300 dpi</small>
 						</td>
-						<td>
+						<td class="printing-company">
 							Fotolabor<br/>
-							<span class="label label-danger margin-0">Warte auf Upload</span>
+							<span class="label label-danger margin-0"><span class="visible-ib-lg">Warte auf Upload</span></span>
 						</td>
 						<td>1 Stk</td>
 						<td>€ 19,00</td>
 						<td>€ 19,90</td>
-						<td>
+						<td class="action visible-lg">
 							<button type="button" class="btn btn-red btn-icon icon-left">
 								Upload erforderlich
 								<i class="entypo-upload"></i>
@@ -428,14 +428,14 @@
 							<i class="entypo-check c-green"></i> 2000 px<br/>
 							<small>2000px, 72 dpi</small>
 						</td>
-						<td>
+						<td class="printing-company">
 							Fotolabor<br/>
-							<span class="label label-danger margin-0">Warte auf Upload</span>
+							<span class="label label-danger margin-0"><span class="visible-ib-lg">Warte auf Upload</span></span>
 						</td>
 						<td>1 Stk</td>
 						<td>€ 19,00</td>
 						<td>€ 19,90</td>
-						<td>
+						<td class="action visible-lg">
 							<button type="button" class="btn btn-default btn-icon icon-left">
 								Upload erforderlich
 								<i class="entypo-upload"></i>

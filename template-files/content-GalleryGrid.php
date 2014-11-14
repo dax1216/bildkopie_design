@@ -1,4 +1,4 @@
-<div class="gallery-env">
+<div class="gallery-env grid">
 
 	<div class="row draggable-portlets">	
 		
@@ -13,7 +13,7 @@
 							</a>
 						</header>				
 						<section class="album-info">
-							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info">Events 2014</span></a></h3>						
+							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info visible-ib-lg">Events 2014</span></a></h3>						
 							<p>Can curiosity may end shameless explained. True high on said mr on come. </p>
 						</section>				
 						<footer>					
@@ -27,12 +27,13 @@
 								<i class="entypo-key"></i>
 								Privat
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -57,7 +58,7 @@
 							</a>
 						</header>				
 						<section class="album-info">
-							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info">Events 2014</span></a></h3>						
+							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info  visible-ib-lg">Events 2014</span></a></h3>						
 							<p>Can curiosity may end shameless explained. True high on said mr on come. </p>
 						</section>				
 						<footer>					
@@ -71,12 +72,13 @@
 								<i class="entypo-key"></i>
 								Privat
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -89,7 +91,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>			
 					</article>	
 				</div>
 
@@ -101,7 +103,7 @@
 							</a>
 						</header>				
 						<section class="album-info">
-							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info">Events 2014</span></a></h3>						
+							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info visible-ib-lg">Events 2014</span></a></h3>						
 							<p>Can curiosity may end shameless explained. True high on said mr on come. </p>
 						</section>				
 						<footer>					
@@ -115,12 +117,13 @@
 								<i class="entypo-key"></i>
 								Privat
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -133,7 +136,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>			
 					</article>	
 				</div>
 
@@ -152,7 +155,7 @@
 							</a>
 						</header>				
 						<section class="album-info">
-							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info">Events 2014</span></a></h3>						
+							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info visible-ib-lg">Events 2014</span></a></h3>						
 							<p>Can curiosity may end shameless explained. True high on said mr on come. </p>
 						</section>				
 						<footer>					
@@ -166,12 +169,13 @@
 								<i class="entypo-key"></i>
 								Privat
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -184,7 +188,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>			
 					</article>	
 				</div>
 
@@ -196,7 +200,7 @@
 							</a>
 						</header>				
 						<section class="album-info">
-							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info">Events 2014</span></a></h3>						
+							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info visible-ib-lg">Events 2014</span></a></h3>						
 							<p>Can curiosity may end shameless explained. True high on said mr on come. </p>
 						</section>				
 						<footer>					
@@ -210,25 +214,26 @@
 								<i class="entypo-key"></i>
 								Privat
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
 									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
-									<li><a href="#"><i class="entypo-cog"></i> Bearbeiten</a></li>
+									<li><a href="#" class="edit-album"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
 									<li class="divider"></li>
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>			
 					</article>	
 				</div>
 
@@ -240,7 +245,7 @@
 							</a>
 						</header>				
 						<section class="album-info">
-							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info">Events 2014</span></a></h3>						
+							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info visible-ib-lg">Events 2014</span></a></h3>						
 							<p>Can curiosity may end shameless explained. True high on said mr on come. </p>
 						</section>				
 						<footer>					
@@ -254,25 +259,26 @@
 								<i class="entypo-key"></i>
 								Privat
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
 									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
-									<li><a href="#"><i class="entypo-cog"></i> Bearbeiten</a></li>
+									<li><a href="#" class="edit-album"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
 									<li class="divider"></li>
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>		
 					</article>	
 				</div>
 
@@ -291,7 +297,7 @@
 							</a>
 						</header>				
 						<section class="album-info">
-							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info">Events 2014</span></a></h3>						
+							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info visible-ib-lg">Events 2014</span></a></h3>						
 							<p>Can curiosity may end shameless explained. True high on said mr on come. </p>
 						</section>				
 						<footer>					
@@ -305,25 +311,26 @@
 								<i class="entypo-key"></i>
 								Privat
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
 									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
-									<li><a href="#"><i class="entypo-cog"></i> Bearbeiten</a></li>
+									<li><a href="#" class="edit-album"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
 									<li class="divider"></li>
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>			
 					</article>	
 				</div>
 
@@ -335,7 +342,7 @@
 							</a>	
 						</header>				
 						<section class="album-info">
-							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info">Events 2014</span></a></h3>						
+							<h3><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php">Album Title  &nbsp;<span class="label label-info visible-ib-lg">Events 2014</span></a></h3>						
 							<p>Can curiosity may end shameless explained. True high on said mr on come. </p>
 						</section>				
 						<footer>					
@@ -349,18 +356,19 @@
 								<i class="entypo-key"></i>
 								Privat
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu dropdown-default" role="menu">
 									<li><a href="/statictemplates/backend_photographer/Alben-GalerieNachUpload.php"><i class="entypo-book-open"></i> Öffnen</a></li>
-									<li><a href="#"><i class="entypo-cog"></i> Bearbeiten</a></li>
+									<li><a href="#" class="edit-album"><i class="entypo-cog"></i> Bearbeiten</a></li>
 									<li><a href="#"><i class="entypo-logout"></i> Album verschieben nach</a></li>
 									<li><a href="#"><i class="entypo-download"></i> Download</a></li>
 									<li class="divider"></li>

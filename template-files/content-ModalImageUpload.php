@@ -73,6 +73,117 @@
 								
 								<p class="bg-red infotext "> Auflosung nicht<br/> ausreichend!</p>
 							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="cropped cropped-modal">
+									<a href="#" class="thumb">
+										<img src="assets/images/12-full.jpg">
+										<div class="overlay left" style="width:52%;"></div>
+										<div class="overlay right" style="width:13%;"></div>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="cropped cropped-modal cropped-image">
+									<a href="#" class="thumb">
+										<img src="assets/images/12-full-cropped.jpg">
+									</a>
+								</div>								
+							</td>
+							<td>
+								203 x 105 mm <br/>
+								opt. 300 dpi, min. 200 dpi
+								<br/><br/>
+								<p class="description">
+									<strong>Vorschaudbild</strong> <br/>
+									0,23 Mbyte <br/>
+									se4090.jpg <br/>
+									16.05.2015 08:00
+								</p>
+							</td>
+							<td>
+								203 x 105 mm <br/>
+								300 dpi
+								<br/><br/>
+								<p class="description">
+									<strong>Uploadbild</strong> <br/>
+									1,05 Mbyte <br/>
+									se4090.jpg <br/>
+									16.05.2015 08:00
+								</p>
+							</td>
+							<td><i class="entypo-check"></i></td>
+							<td>
+								<p><button type="button" class="btn btn-default btn-icon icon-left">
+									Upload wiederholen
+									<i class="entypo-upload"></i>
+								</button></p> 
+								<p><button type="button" class="btn btn-default btn-icon icon-left">
+									Upload loschen
+									<i class="entypo-trash"></i>
+								</button></p> 
+								
+								
+								
+								<p class="bg-red infotext "> Auflosung nicht<br/> ausreichend!</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="cropped cropped-modal">
+									<a href="#" class="thumb">
+										<img src="assets/images/12-full.jpg">
+										<div class="overlay left" style="width:52%;"></div>
+										<div class="overlay right" style="width:13%;"></div>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="cropped cropped-modal cropped-image">
+									<a href="#" class="thumb">
+										<img src="assets/images/12-full-cropped.jpg">
+									</a>
+								</div>								
+							</td>
+							<td>
+								203 x 105 mm <br/>
+								opt. 300 dpi, min. 200 dpi
+								<br/><br/>
+								<p class="description">
+									<strong>Vorschaudbild</strong> <br/>
+									0,23 Mbyte <br/>
+									se4090.jpg <br/>
+									16.05.2015 08:00
+								</p>
+							</td>
+							<td>
+								203 x 105 mm <br/>
+								300 dpi
+								<br/><br/>
+								<p class="description">
+									<strong>Uploadbild</strong> <br/>
+									1,05 Mbyte <br/>
+									se4090.jpg <br/>
+									16.05.2015 08:00
+								</p>
+							</td>
+							<td><i class="entypo-check"></i></td>
+							<td>
+								<p><button type="button" class="btn btn-default btn-icon icon-left">
+									Upload wiederholen
+									<i class="entypo-upload"></i>
+								</button></p> 
+								<p><button type="button" class="btn btn-default btn-icon icon-left">
+									Upload loschen
+									<i class="entypo-trash"></i>
+								</button></p> 
+								
+								
+								
+								<p class="bg-red infotext "> Auflosung nicht<br/> ausreichend!</p>
+							</td>
+						</tr>
 							<tr>
 								<td>
 									<div class="cropped cropped-modal">
@@ -120,7 +231,6 @@
 										<i class="entypo-upload"></i>
 									</button></p> 
 								</td>
-							</tr>
 						</tr>
 
 					</tbody>

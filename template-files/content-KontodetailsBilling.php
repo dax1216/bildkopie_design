@@ -1,13 +1,13 @@
 <div class="panel panel-primary">
 	<div class="panel-heading paddup">		
 		<div class="row">
-			<div class="col-sm-3 col-left">							
+			<div class="col-sm-4 col-lg-3 col-left">							
 				<div class="daterange daterange-inline" data-format="MMMM D, YYYY" data-start-date="March 13, 2014" data-end-date="March 27, 2014">
 					<i class="entypo-calendar"></i>
 					<span>March 13, 2014 - March 27, 2014</span>
 				</div>
 			</div>
-			<div class="col-sm-9 col-right">
+			<div class="col-sm-8 col-lg-9 col-right">
 				<div class="btn-group pull-right"  data-toggle="buttons">
 					<label class="btn btn-white">
 						<input type="checkbox">Copy
@@ -44,7 +44,7 @@
 		<tbody>
 			<tr>
 				<td>15.08.2014</td>
-				<td>Bestellungen aus Ihrem Shop <span class="label label-info">1 Bestellung</span></td>
+				<td>Bestellungen aus Ihrem Shop <span class="label label-info visible-ib-lg">1 Bestellung</span></td>
 				<td>99,00</td>
 				<td>€ -15,33</td>
 				<td> -15,33</td>
@@ -52,7 +52,7 @@
 			</tr>
 			<tr>
 				<td>11.08.2014</td>
-				<td>Bestellungen aus Ihrem Shop <span class="label label-info">3 Bestellung</span></td>
+				<td>Bestellungen aus Ihrem Shop <span class="label label-info visible-ib-lg">3 Bestellung</span></td>
 				<td>99,00</td>
 				<td>€ -15,33</td>
 				<td> -15,33</td>
@@ -60,7 +60,7 @@
 			</tr>
 			<tr>
 				<td>09.08.2014</td>
-				<td>Bestellungen aus Ihrem Shop <span class="label label-info">9 Bestellung</span></td>
+				<td>Bestellungen aus Ihrem Shop <span class="label label-info visible-ib-lg">9 Bestellung</span></td>
 				<td>99,00</td>
 				<td>€ -15,33</td>
 				<td> -15,33</td>

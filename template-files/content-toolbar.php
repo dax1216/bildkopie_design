@@ -2,7 +2,7 @@
 	<div class="row">
 		<!-- Profile Info and Notifications -->
 		<div class="col-md-6 col-sm-8 clearfix">
-			<h1 class="page-title"><i class="entypo-gauge"></i>Page Title</h1>
+			<h1 class="page-title"><i class="entypo-gauge"></i> Page Title</h1>
 			<div class="breadcrumbs">
 				<ul>
 					<li><a href="#" >Home</a></li>	

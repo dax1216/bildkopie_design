@@ -1,6 +1,6 @@
 <div class="toolbar-gallery">
-<div class="row">
-	<div class="col-sm-7 ">
+<div class="row refined">
+	<div class="col-sm-7 col-md-6">
 		<div class="icon-group pull-left">
 			<i class="entypo-picture"></i> 6 Bilder &nbsp;&nbsp;
 			<i class="entypo-drive"></i> Albumgröße: 55,7 MB &nbsp;&nbsp;
@@ -12,13 +12,11 @@
 			<i class="entypo-link"></i> <a href="#" class="send-gallery-link">Link Senden</a>
 		</div>
 	</div>
-	<div class="col-sm-5">
-		<div class="row">
-			<div class="with-table">
+	<div class="col-sm-5 col-md-6">
+		<div class="row refined">
 				<div class="col-sm-6">
 					<div class="btn-group white pull-right full">
-						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>						
-						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
+						<button type="button" class="btn btn-default btn-sm dropdown-toggle pull-right" data-toggle="dropdown">
 							<i class="entypo-down-open"></i>
 						</button>
 						<ul class="dropdown-menu" role="menu">
@@ -31,6 +29,9 @@
 							<li class="divider"></li>
 							<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 						</ul>
+						<button type="button" class="btn btn-default btn-sm btn-parallel pull-right margin-r-n"> Aktion wählen </button>						
+						
+						
 					</div>
 				</div>					
 				<div class="col-sm-6">
@@ -39,8 +40,7 @@
 						<option value="20">Sortieren nach</option>						
 						<option value="30">Sortieren nach</option>				
 					</select>
-				</div>			
-			</div>
+				</div>	
 			
 		</div>
 	</div>

@@ -23,5 +23,7 @@
 
 	<script src="<?php siteInfo('template_url'); ?>/js/neon-custom.js"></script>
 	<script src="<?php siteInfo('template_url'); ?>/js/neon-demo.js"></script>
+
+	
 </body>
 </html>

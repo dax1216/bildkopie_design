@@ -33,12 +33,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -81,12 +82,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -100,7 +102,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 
@@ -129,12 +131,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -183,12 +186,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -202,7 +206,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 
@@ -232,12 +236,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -280,12 +285,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -335,12 +341,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -354,7 +361,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 			
@@ -383,12 +390,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -402,7 +410,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 
@@ -434,12 +442,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -489,12 +498,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -538,12 +548,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -586,12 +597,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -641,12 +653,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -660,7 +673,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 
@@ -689,12 +702,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -708,7 +722,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 
@@ -737,12 +751,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -756,7 +771,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 
@@ -797,12 +812,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -816,7 +832,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 
@@ -845,12 +861,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -864,7 +881,7 @@
 									<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 								</ul>
 							</div>
-						</footer>				
+						</footer>					
 					</article>	
 				</div>
 
@@ -893,12 +910,13 @@
 									se2029.jpg
 								</span>
 							</div>										
-							<div class="album-options">						
-								<div class="checkbox checkbox-replace">
-									<input type="checkbox" id="chk-2">
-								</div>
-							</div>
+							
 							<div class="btn-group btn-clear pull-right">
+								<div class="album-options">						
+									<div class="checkbox checkbox-replace">
+										<input type="checkbox" id="chk-2">
+									</div>
+								</div>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 									<span class="caret"></span>
 								</button>
@@ -962,14 +980,16 @@
 	   var h = jQuery('.gallery-env .landscape article.album header img').height();
 		
 		 jQuery('.gallery-env.col-6 .portrait .album .panel-heading > a > img').css({
-		 	maxHeight:h+'px'
+		 	maxHeight:h+'px',
+		 	minHeight:h+'px'
 		 })
 	});
 
 	jQuery(window).on("resize", function(event){
 	  var h = jQuery('.gallery-env .landscape article.album header img').height();
 	  jQuery('.gallery-env.col-6 .portrait .album .panel-heading > a > img').css({
-	 	maxHeight:h+'px'
+	 	maxHeight:h+'px',
+	 	minHeight:h+'px'
 		 })
 	});
 </script><!-- Footer -->

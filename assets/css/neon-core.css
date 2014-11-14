@@ -2797,7 +2797,7 @@ input[type="button"].btn-block {
 .page-container .sidebar-menu .logo-env > div > a {
   display: inline-block;
   color: #aaabae;
-  padding-top: 6px;
+  padding-top: 9px;
 }
 .page-container .sidebar-menu .logo-env > div.sidebar-collapse,
 .page-container .sidebar-menu .logo-env > div.sidebar-mobile-menu {
@@ -2813,7 +2813,7 @@ input[type="button"].btn-block {
   line-height: 1;
   font-size: 20px;
   font-weight: 300;
-  padding: 5px 2px;
+  padding: 2px 2px;
   -webkit-border-radius: 3px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 3px;
@@ -3298,7 +3298,7 @@ input[type="button"].btn-block {
 }
 .page-container.sidebar-collapsed .sidebar-menu .logo-env {
   display: block;
-  padding: 20px;
+  padding: 0 20px;
 }
 .page-container.sidebar-collapsed .sidebar-menu .logo-env > div.logo {
   overflow: hidden;
@@ -5013,8 +5013,7 @@ a:hover {
 }
 .links-list {
   white-space: nowrap;
-  padding-top: 14px;
-  padding-bottom: 8px;
+  padding-top: 10px;
 }
 .links-list > li.sep {
   display: inline-block;

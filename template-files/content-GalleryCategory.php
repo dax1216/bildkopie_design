@@ -1,17 +1,17 @@
 <div class="with-table">
-	<table class="table table-condensed table-bordered table-hover table-striped table-responsive">
+	<table class="table categories table-condensed table-bordered table-hover table-striped table-responsive">
 		<thead>
 			<tr>
-				<th width="5%">Status</th>
-				<th width="80%">Titel</th>
-				<th width="15%">Aktion</th>
+				<th class="status">Status</th>
+				<th class="title">Titel</th>
+				<th class="action">Aktion</th>
 			</tr>
 		</thead>			
 		<tbody>
 			<tr>
-				<td> <span class="badge block badge-success badge-roundless"> <i class="entypo-check"></i> </span> </td>
-				<td>Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
-				<td>
+				<td class="status"> <span class="badge block badge-success badge-roundless"> <i class="entypo-check"></i> </span> </td>
+				<td class="title">Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
+				<td class="action">
 					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
@@ -26,9 +26,9 @@
 				</td>
 			</tr>
 			<tr>
-				<td> <span class="badge block badge-danger badge-roundless"> <i class="entypo-cancel-circled"></i> </span> </td>
-				<td>Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
-				<td>
+				<td class="status"> <span class="badge block badge-danger badge-roundless"> <i class="entypo-cancel-circled"></i> </span> </td>
+				<td class="title">Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
+				<td class="action">
 					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
@@ -43,9 +43,9 @@
 				</td>
 			</tr>
 			<tr>
-				<td> <span class="badge block badge-success badge-roundless"> <i class="entypo-check"></i> </span> </td>
-				<td>Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
-				<td>
+				<td class="status"> <span class="badge block badge-success badge-roundless"> <i class="entypo-check"></i> </span> </td>
+				<td class="title">Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
+				<td class="action">
 					<div class="btn-group both-icon white">
 						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
 						
