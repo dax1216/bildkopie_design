@@ -49,7 +49,7 @@
 					<span class="badge badge-success">3</span>
 				</a>
 				<ul>
-					<li><a href="<?php siteInfo('url');?>/Bestellungen-Liste-file.php">Bestellungen</a></li>
+					<li><a href="<?php siteInfo('url');?>/Bestellungen-Liste.php">Bestellungen</a></li>
 					<li><a href="#">Rechnungen</a></li>
 				</ul>
 			</li>
@@ -86,7 +86,7 @@
 				<a href="#">
 					<i class="entypo-home"></i>
 					<span>OnlineShop</span>
-					<i class="entypo-popup pull-right hidden-sm"></i>
+					<i class="entypo-popup pull-right hide-on-sidebar-collapsed"></i>
 				</a>
 				<ul>
 					<li><a href="#"><span>Shopdetails</span></a></li>					

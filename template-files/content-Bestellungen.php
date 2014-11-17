@@ -21,7 +21,7 @@
 				<form class="form-horizontal form-groups-bordered">
 					<div class="row  refined">
 						<div class="col-sm-6">
-							<div class="row">
+							<div class="row refined">
 								<label for="field-1" class="col-sm-3 control-label">Search:</label>								
 								<div class="col-sm-9">
 									<input type="text" class="form-control" id="field-1" >
@@ -80,10 +80,12 @@
 							<li class="divider"></li>
 							<li><a href="#"><i class="entypo-block"></i> Storniert</a></li>
 						</ul>
-					</div>					
+					</div>
+
+										
 				</td>
 				<td class="action visible-lg">
-					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -117,7 +119,7 @@
 					</div>
 				</td>
 				<td class="action visible-lg">
-					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -150,7 +152,7 @@
 					</div>					
 				</td>
 				<td class="action visible-lg">
-					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -183,7 +185,7 @@
 					</div>
 				</td>
 				<td class="action visible-lg">
-					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -216,7 +218,7 @@
 					</div>
 				</td>
 				<td class="action visible-lg">
-					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -249,7 +251,7 @@
 					</div>
 				</td>
 				<td class="action visible-lg">
-					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>
@@ -282,7 +284,7 @@
 					</div>
 				</td>
 				<td class="action visible-lg">
-					<a href="<?php siteInfo('url');?>/statictemplates/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Bestellungen-Liste-file.php" class="btn btn-default btn-sm btn-icon icon-left">
 						<i class="entypo-search"></i>
 						Ubersicht
 					</a>

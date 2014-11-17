@@ -584,8 +584,8 @@ table tr.no-bg td{
   }
 
 .row.refined{
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 .row.refined .col-xs-1, 
@@ -636,8 +636,8 @@ table tr.no-bg td{
 .row.refined .col-sm-12,
 .row.refined .col-md-12,
 .row.refined .col-lg-12 {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .margin-r-n{
   margin-right: -1px;
@@ -660,16 +660,21 @@ table tr.no-bg td{
   padding-right: 0;
 }
 #modal-image-upload .modal-dialog{
-  height: 85%;
+  
 }
 #modal-image-upload .modal-content{
-    height: 90%;
+
 }
 #modal-image-upload .modal-body{
-  overflow: scroll;
-  height: 85%;
+  overflow-y:scroll;
 }
+.modal-content-inside{
 
+}
+.modal-open .page-container{
+  padding-right: 17px;
+}
+.sidebar-collapsed .hide-on-sidebar-collapsed{display: none !important}
 @media (max-width: 1375px){
   .toolbar-gallery .btn-parallel{
     width: auto;
@@ -710,7 +715,7 @@ table tr.no-bg td{
 
 @media (max-width: 1332px){
   .profile-env section.profile-info-tabs .nav-tabs li a{
-    padding: 10px 13px;
+    padding: 10px 10px;
     margin-right: 2px;
   }
 }
@@ -786,6 +791,8 @@ table tr.no-bg td{
 
 
 }
+
+
 
 
 @media (min-width: 768px){

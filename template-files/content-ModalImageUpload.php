@@ -7,7 +7,8 @@
 				<h4 class="modal-title">Bilder Upload: Caludia Musil</h4>
 			</div>			
 			<div class="modal-body">			
-				<table width="100%" class="table table-bordered table-striped datatable vlign-top">
+				<div class="modal-content-inside">
+					<table width="100%" class="table table-bordered table-striped datatable vlign-top">
 					<thead>
 						<tr>
 							<th width="15%">Vorschaubild</th>
@@ -235,6 +236,7 @@
 
 					</tbody>
 				</table>
+				</div>
 			</div>			
 			<div class="modal-footer">
 				<button type="button" class="btn btn-red" data-dismiss="modal">Abbrechen</button>
@@ -246,3 +248,15 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	jQuery(function(){
+		var h = jQuery(window).height() - 195;
+		jQuery('#modal-image-upload .modal-body').css('height',h+'px');
+	})
+
+	jQuery(window).resize(function() {
+		var h = jQuery(window).height() - 195;
+		jQuery('#modal-image-upload .modal-body').css('height',h+'px');
+	});
+</script>
