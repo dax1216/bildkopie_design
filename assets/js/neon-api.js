@@ -24,9 +24,9 @@ jQuery.extend(public_vars, {
 
 function show_sidebar_menu(with_animation)
 {
-	if(isxs())
+	/*if(isxs())
 		return;
-		
+		*/
 	if(public_vars.isRightSidebar)
 	{
 		rb_show_sidebar_menu(with_animation);
@@ -137,9 +137,9 @@ function show_sidebar_menu(with_animation)
 
 function hide_sidebar_menu(with_animation)
 {
-	if(isxs())
+	/*if(isxs())
 		return;
-		
+		*/
 	if(public_vars.isRightSidebar)
 	{
 		rb_hide_sidebar_menu(with_animation);

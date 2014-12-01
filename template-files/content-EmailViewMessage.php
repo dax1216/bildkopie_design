@@ -42,16 +42,11 @@
 		</div>
 		
 		<div class="mail-text">
-			
 			<p>Sehr geehrte Frau Musil</p>
-
 			<p>Leider haben Wir ihre Zahlung von € 36,- nicht erhalten. </p>
-
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
-
 			<p>Mit freundlichen Grüßen<br/>
 			Ihr Fotostudio</p>
-			
 		</div>
 		
 		<div class="mail-attachments">

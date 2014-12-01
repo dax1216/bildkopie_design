@@ -56,10 +56,10 @@ function resizable(breakpoint)
 	
 	
 	// Tablet Screen Specific Script
-	if(isxs())
+	/*if(isxs())
 	{
 		public_vars.$pageContainer.removeClass('sidebar-collapsed');
-	}
+	}*/
 	
 	
 	// Trigger Event

@@ -2,7 +2,7 @@
 	
 	<!-- compose new email button -->
 	<div class="mail-sidebar-row hidden-xs">
-		<a href="#" class="btn btn-success btn-icon btn-block">
+		<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Neue-Nachricht.php" class="btn btn-success btn-icon btn-block">
 			Neue Nachricht schrelben
 			<i class="entypo-pencil"></i>
 		</a>

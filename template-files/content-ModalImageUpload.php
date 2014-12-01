@@ -1,25 +1,26 @@
 <!-- modal-package (Custom Width)-->
-<div class="modal fade custom-width" id="modal-image-upload">
+<div class="modal fade" id="modal-image-upload">
 	<div class="modal-dialog" style="width: 80%;">
 		<div class="modal-content">			
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 class="modal-title">Bilder Upload: Caludia Musil</h4>
 			</div>			
-			<div class="modal-body">			
-				<div class="modal-content-inside">
-					<table width="100%" class="table table-bordered table-striped datatable vlign-top">
+			<div class="modal-body resize">			
+				<div class="dataTables_wrapper form-inline">
+					<table width="100%" class="table table-bordered table-striped">
 					<thead>
 						<tr>
-							<th width="15%">Vorschaubild</th>
-							<th width="15%">Ihr Upload</th>
-							<th width="15%">Erforderliche Auflosung</th>
-							<th width="15%">Ihr Upload</th>
-							<th width="5%">Check</th>
-							<th width="15%">Aktion</th>
+							<th id="preview">Vorschaubild</th>
+							<th id="your-upload">Ihr Upload</th>
+							<th>Erforderliche Auflosung</th>
+							<th>Ihr Upload</th>
+							<th>Check</th>
+							<th>Aktion</th>
 						</tr>
 					</thead>
 					<tbody>
+						
 						<tr>
 							<td>
 								<div class="cropped cropped-modal">
@@ -31,7 +32,7 @@
 								</div>
 							</td>
 							<td>
-								<div class="cropped cropped-modal cropped-image">
+								<div class="cropped cropped-modal your-upload">
 									<a href="#" class="thumb">
 										<img src="assets/images/12-full-cropped.jpg">
 									</a>
@@ -41,7 +42,7 @@
 								203 x 105 mm <br/>
 								opt. 300 dpi, min. 200 dpi
 								<br/><br/>
-								<p class="description">
+								<p class="text-muted">
 									<strong>Vorschaudbild</strong> <br/>
 									0,23 Mbyte <br/>
 									se4090.jpg <br/>
@@ -52,27 +53,24 @@
 								203 x 105 mm <br/>
 								300 dpi
 								<br/><br/>
-								<p class="description">
+								<p class="text-muted">
 									<strong>Uploadbild</strong> <br/>
 									1,05 Mbyte <br/>
 									se4090.jpg <br/>
 									16.05.2015 08:00
 								</p>
 							</td>
-							<td><i class="entypo-check"></i></td>
+							<td><i class="entypo-check text-success strong"></i></td>
 							<td>
-								<p><button type="button" class="btn btn-default btn-icon icon-left">
+								<p><button type="button" class="btn btn-default btn-icon btn-sm icon-left">
 									Upload wiederholen
 									<i class="entypo-upload"></i>
 								</button></p> 
-								<p><button type="button" class="btn btn-default btn-icon icon-left">
+								<p><button type="button" class="btn btn-default btn-icon btn-sm icon-left">
 									Upload loschen
 									<i class="entypo-trash"></i>
 								</button></p> 
-								
-								
-								
-								<p class="bg-red infotext "> Auflosung nicht<br/> ausreichend!</p>
+								<div class="alert alert-danger"><p>Auflosung nicht<br/> ausreichend!</p></div>
 							</td>
 						</tr>
 						<tr>
@@ -86,7 +84,7 @@
 								</div>
 							</td>
 							<td>
-								<div class="cropped cropped-modal cropped-image">
+								<div class="cropped cropped-modal your-upload">
 									<a href="#" class="thumb">
 										<img src="assets/images/12-full-cropped.jpg">
 									</a>
@@ -96,7 +94,7 @@
 								203 x 105 mm <br/>
 								opt. 300 dpi, min. 200 dpi
 								<br/><br/>
-								<p class="description">
+								<p class="text-muted">
 									<strong>Vorschaudbild</strong> <br/>
 									0,23 Mbyte <br/>
 									se4090.jpg <br/>
@@ -107,82 +105,24 @@
 								203 x 105 mm <br/>
 								300 dpi
 								<br/><br/>
-								<p class="description">
+								<p class="text-muted">
 									<strong>Uploadbild</strong> <br/>
 									1,05 Mbyte <br/>
 									se4090.jpg <br/>
 									16.05.2015 08:00
 								</p>
 							</td>
-							<td><i class="entypo-check"></i></td>
+							<td><i class="entypo-cancel text-danger strong"></i> </td>
 							<td>
-								<p><button type="button" class="btn btn-default btn-icon icon-left">
+								<p><button type="button" class="btn btn-default btn-icon btn-sm icon-left">
 									Upload wiederholen
 									<i class="entypo-upload"></i>
 								</button></p> 
-								<p><button type="button" class="btn btn-default btn-icon icon-left">
+								<p><button type="button" class="btn btn-default btn-icon btn-sm icon-left">
 									Upload loschen
 									<i class="entypo-trash"></i>
-								</button></p> 
-								
-								
-								
-								<p class="bg-red infotext "> Auflosung nicht<br/> ausreichend!</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="cropped cropped-modal">
-									<a href="#" class="thumb">
-										<img src="assets/images/12-full.jpg">
-										<div class="overlay left" style="width:52%;"></div>
-										<div class="overlay right" style="width:13%;"></div>
-									</a>
-								</div>
-							</td>
-							<td>
-								<div class="cropped cropped-modal cropped-image">
-									<a href="#" class="thumb">
-										<img src="assets/images/12-full-cropped.jpg">
-									</a>
-								</div>								
-							</td>
-							<td>
-								203 x 105 mm <br/>
-								opt. 300 dpi, min. 200 dpi
-								<br/><br/>
-								<p class="description">
-									<strong>Vorschaudbild</strong> <br/>
-									0,23 Mbyte <br/>
-									se4090.jpg <br/>
-									16.05.2015 08:00
-								</p>
-							</td>
-							<td>
-								203 x 105 mm <br/>
-								300 dpi
-								<br/><br/>
-								<p class="description">
-									<strong>Uploadbild</strong> <br/>
-									1,05 Mbyte <br/>
-									se4090.jpg <br/>
-									16.05.2015 08:00
-								</p>
-							</td>
-							<td><i class="entypo-check"></i></td>
-							<td>
-								<p><button type="button" class="btn btn-default btn-icon icon-left">
-									Upload wiederholen
-									<i class="entypo-upload"></i>
-								</button></p> 
-								<p><button type="button" class="btn btn-default btn-icon icon-left">
-									Upload loschen
-									<i class="entypo-trash"></i>
-								</button></p> 
-								
-								
-								
-								<p class="bg-red infotext "> Auflosung nicht<br/> ausreichend!</p>
+								</button></p> 								
+								<div class="alert alert-danger"><p>Auflosung nicht<br/> ausreichend!</p></div>
 							</td>
 						</tr>
 							<tr>
@@ -207,7 +147,7 @@
 									203 x 105 mm <br/>
 									300 dpi
 									<br/><br/>
-									<p class="description">
+									<p class="text-muted">
 										<strong>Uploadbild</strong> <br/>
 										1,05 Mbyte <br/>
 										se4090.jpg <br/>
@@ -218,16 +158,16 @@
 									-<br/>
 									-
 									<br/><br/>
-									<p class="description">
+									<p class="text-muted">
 										<strong>Uploadbild</strong> <br/>
 										-<br/>
 										-<br/>
 										-
 									</p>
 								</td>
-								<td><i class="entypo-cancel"></i></td>
+								<td><i class="entypo-cancel text-danger strong"></i></td>
 								<td>
-									<p><button type="button" class="btn btn-red btn-icon icon-left">
+									<p><button type="button" class="btn btn-red btn-icon btn-sm icon-left">
 										Upload erforderlich
 										<i class="entypo-upload"></i>
 									</button></p> 
@@ -249,14 +189,3 @@
 	</div>
 </div>
 
-<script>
-	jQuery(function(){
-		var h = jQuery(window).height() - 195;
-		jQuery('#modal-image-upload .modal-body').css('height',h+'px');
-	})
-
-	jQuery(window).resize(function() {
-		var h = jQuery(window).height() - 195;
-		jQuery('#modal-image-upload .modal-body').css('height',h+'px');
-	});
-</script>

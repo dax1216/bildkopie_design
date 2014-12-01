@@ -4,7 +4,7 @@
 	<div class="main-content">
 		<?php get_template_part('toolbar'); ?>	
 		<?php get_template_part('KundenListe'); ?>
-
+		<?php get_template_part('copyright') ?>
 	</div>
 </div>
 <?php get_footer('user'); ?>

@@ -1,10 +1,10 @@
 <!-- edit-category -->
 <div class="modal fade custom-width" id="edit-category">
-	<div class="modal-dialog" style="width: 50%;">
+	<div class="modal-dialog" style="width: 65%;">
 		<div class="modal-content">			
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Kategorie bearbeiten: <strong>Safari Reibe von 2014 mi Willi</strong></h4>
+				<h4 class="modal-title">Kategorie bearbeiten: Safari Reibe von 2014 mi Willi</h4>
 			</div>
 			
 			<div class="modal-body">
@@ -52,10 +52,15 @@
 							<div class="form-group">
 								<label class="col-sm-5 control-label">Preisliste</label>						
 								<div class="col-sm-7">											
-									<select name="" class="selectboxit" data-first-option="false">								
-										<option value="1" selected>Auswahlen</option>								
-										<option value="2">Osterreich</option>								
-									</select>
+									<div class="btn-group btn-fullwidth btn-select">
+								        <button type="button" class="btn btn-fullwidth btn-white dropdown-toggle" data-toggle="dropdown">
+								            Aktion wählen <i class="entypo-down-open pull-right"></i>
+								        </button>
+								        <ul class="dropdown-menu" role="menu">
+								            <li><a href="#">Auswahlen</a></li>
+											<li><a href="#">Osterreich</a></li>
+								        </ul>
+								    </div>
 								</div>
 							</div>
 
@@ -64,11 +69,16 @@
 						<div class="col-sm-6">
 							<div class="form-group">
 								<label class="col-sm-5 control-label">Status</label>						
-								<div class="col-sm-7">											
-									<select name="" class="selectboxit select-success" data-first-option="false">								
-										<option value="1" selected>Auswahlen</option>								
-										<option value="2">Osterreich</option>								
-									</select>
+								<div class="col-sm-7">	
+									<div class="btn-group btn-fullwidth btn-select">
+								        <button type="button" class="btn btn-fullwidth btn-green dropdown-toggle" data-toggle="dropdown">
+								            Auswählen <i class="entypo-down-open pull-right"></i>
+								        </button>
+								        <ul class="dropdown-menu" role="menu">
+								            <li><a href="#">Auswahlen</a></li>
+											<li><a href="#">Osterreich</a></li>
+								        </ul>
+								    </div>			
 								</div>
 							</div>
 							<br/>

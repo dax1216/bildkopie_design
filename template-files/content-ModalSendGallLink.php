@@ -1,39 +1,38 @@
 <!-- new-category -->
 <div class="modal fade custom-width mail-modal" id="send-gallery-link">
 	<div class="modal-dialog" style="width: 50%;">
-		<div class="modal-content">			
+		<div class="modal-content resize">			
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title"><strong>Album Link kopieren / versenden</strong></h4>
+				<h4 class="modal-title">Album Link kopieren / versenden</h4>
 			</div>
 			
-			<div class="modal-body">
+			<div class="modal-body resize">
 				<form role="form" class="form-horizontal form-groups">
 					<div class="row">
-						<div class="mail-env mail-modal">
+						<div class="mail-env">
 							<div class="mail-body">	
 								<div class="mail-compose">
 									<div class="col-sm-12">
-
-										<div class="form-group">						
+										<div class="form-group">					
 											
-												<div class="input-group">
-													<input type="text" class="form-control link-input" value="http://fotoraf.bildkopie.com/124545fs5d4f54f5ds4545wwere15">										
-													<div class="input-group-addon btn-info">
-														<i class="fa fa-copy"></i> Link kopieren
-													</div>
+											<div class="input-group">
+												<input type="text" class="form-control link-input" value="http://fotoraf.bildkopie.com/124545fs5d4f54f5ds4545wwere15">										
+												<div class="input-group-addon btn-info">
+													<i class="fa fa-copy"></i> Link kopieren
 												</div>
+											</div>
 											
 										</div>								
 										<div class="form-group">						
 											
-												<label for="to">E-Mailt:</label>
+												<label for="to" class="text-muted">E-Mailt:</label>
 												<input type="text" class="form-control" id="to" tabindex="1" />
 											
 										</div>
 										<div class="form-group">						
 											
-												<label for="subject">Betreff:</label>
+												<label for="subject" class="text-muted">Betreff:</label>
 												<input type="text" class="form-control" id="subject" tabindex="1" />
 											
 										</div>
@@ -48,12 +47,8 @@
 								</div>
 							</div>
 						</div>
-
-
-						
 					</div>
 				</form>
-				
 			</div>
 			
 			<div class="modal-footer">

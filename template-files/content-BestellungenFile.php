@@ -1,5 +1,27 @@
-<button type="button" class="btn btn-default"><i class="entypo-reply"></i></button>
-<h2 class="page-title">Bestellung #001387 verwalten </h2>
+<div class="btn-bar bs-example row">
+
+<div class="col-xs-4 clearfix left-bar">
+    <button type="button" class="btn btn-white"><i class="entypo-reply"></i></button>
+</div>
+
+<div class="col-xs-8 clearfix right-bar">
+	
+    <button type="button" class="btn btn-white pull-right">Rechnung zeigen</button>
+        
+    <div class="btn-group btn-select pull-right">
+        <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+            Aktion wählen <i class="entypo-down-open"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#"> Rechnung öffnen</a></li>
+            <li><a href="#"> Lieferschein öffnen</a></li>
+        </ul>
+    </div>
+
+</div>    
+   
+</div>
+
 <div class="row">
 	<div class="col-sm-6">
 		<div class="row">
@@ -17,67 +39,81 @@
 					<div class="panel-body">		
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="form-horizontal form-groups fg-label squeeze">
+
+								<div class="form-horizontal form-groups ">
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>ID</strong></label>						
 										<div class="col-sm-7">
-											<span  class="form-control">001377</span>
+											<span  class="form-control form-control-text">001377</span>
 										</div>
 									</div>
 
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Bestelldatum</strong></label>						
 										<div class="col-sm-7">
-											<span  class="form-control">30.07.2014</span>
+											<span  class="form-control form-control-text">30.07.2014</span>
 										</div>
 									</div>
-
+									
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Status</strong></label>						
 										<div class="col-sm-7">
-											<div class="btn-group both-icon form-control btn-sm-controled">
-												<button  onclick="jQuery('#modal-image-upload').modal('show');" type="button" class="btn btn-red btn-text">	<i class="entypo-upload"></i> 2 Uploads erforderlich</button>												
-												<button type="button" class="btn btn-red btn-c-icon">
-													<i class="entypo-down"></i>
-												</button>
-											</div>
+                                            
+                                            <div class="btn-group btn-fullwidth">
+                                                <button onclick="jQuery('#modal-image-upload').modal('show');"  type="button" class="btn btn-red"><i class="entypo-upload"></i> 2 Uploads erforderlich</button>
+                                                
+                                                <button type="button" class="btn btn-red dropdown-toggle" data-toggle="dropdown">
+                                                    <i class="entypo-down"></i>
+                                                </button>
+                                                
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li><a href="#"><i class="entypo-upload"></i> 2 Uploads erfoderlich</a></li>
+                                                    <li><a href="#"><i class="entypo-clock"></i> In Bearbeitung</a></li>
+                                                    <li><a href="#"><i class="entypo-upload"></i> Zur Abholung bereit</a></li>
+                                                    <li><a href="#"><i class="entypo-direction"></i> Versendet</a></li>
+                                                    <li><a href="#"><i class="entypo-check"></i> Abgeschloben</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a href="#"><i class="entypo-block"></i> Storniert</a></li>
+                                                </ul>
+                                            </div>
+                                            
 										</div>
 									</div>
-
+                                     
 									<hr/>
 
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Preis</strong></label>						
 										<div class="col-sm-7">
-											<span  class="form-control">€ 66,80</span>
+											<span class="form-control form-control-text">€ 66,80</span>
 										</div>
 									</div>
 
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Ihr erlös</strong></label>						
 										<div class="col-sm-7">
-											<span  class="form-control">€ 46,80</span>
+											<span class="form-control form-control-text">€ 46,80</span>
 										</div>
 									</div>
 
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Versandart</strong></label>						
 										<div class="col-sm-7">
-											<span  class="form-control">Abholung</span>
+											<span class="form-control form-control-text">Abholung</span>
 										</div>
 									</div>
 
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Zahlungsart</strong></label>						
 										<div class="col-sm-7">
-											<span  class="form-control">Barzahlung bei Abholung</span>
+											<span  class="form-control form-control-text">Barzahlung bei Abholung</span>
 										</div>
 									</div>
 
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Laborversand</strong></label>						
 										<div class="col-sm-7">
-											<span  class="form-control">Weiterversand durch den Fotografen</span>
+											<span  class="form-control form-control-text">Weiterversand durch den Fotografen</span>
 										</div>
 									</div>
 
@@ -86,7 +122,7 @@
 									<div class="form-group">
 										<label class="col-sm-5 control-label"><strong>Kunden Komentar</strong></label>						
 										<div class="col-sm-7">
-											<p class="form-control" style="height:auto;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+											<span class="form-control form-control-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span>
 										</div>
 									</div>
 								</div>
@@ -151,32 +187,32 @@
 							<div class="panel-body">		
 								<div class="row">
 									<div class="col-sm-12">
-										<div class="form-horizontal form-groups fg-label squeeze">
+										<div class="form-horizontal form-groups ">
 											<div class="form-group">
 												<label class="col-sm-5 control-label"><strong>Name</strong></label>						
 												<div class="col-sm-7">
-													<span  class="form-control">Frau Klaudia Musil</span>
+													<span  class="form-control form-control-text">Frau Klaudia Musil</span>
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-sm-5 control-label"><strong>Adresse</strong></label>						
 												<div class="col-sm-7">
-													<span class="form-control" style="height:auto;">Traunstraße 28 <br/>2120 Wolkersdorf <br/>Österreich</span>
+													<span class="form-control form-control-text">Traunstraße 28 <br/>2120 Wolkersdorf <br/>Österreich</span>
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-sm-5 control-label"><strong>Rufnummer</strong></label>						
 												<div class="col-sm-7">
-													<span  class="form-control">069911145395</span>
+													<span  class="form-control form-control-text">069911145395</span>
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-sm-5 control-label"><strong>E-Mail</strong></label>						
 												<div class="col-sm-7">
-													<span  class="form-control">karin.hiebenner@fotosemrad.at</span>
+													<span  class="form-control form-control-text">karin.hiebenner@fotosemrad.at</span>
 												</div>
 											</div>
 
@@ -185,12 +221,10 @@
 											<div class="form-group">
 												<label class="col-sm-5 control-label"></label>						
 												<div class="col-sm-7">
-													<p class="form-control">
-														<button type="button" onclick="jQuery('#modal-kunden-bearbeiten-Lieferadresse').modal('show');" class="btn btn-blue btn-icon icon-left">
-															Kundendaden bearbeiten
-															<i class="entypo-pencil"></i>
-														</button>
-													</p>
+                                                    <button type="button" onclick="jQuery('#modal-kunden-bearbeiten-Lieferadresse').modal('show');" class="btn btn-blue btn-icon icon-left">
+                                                        Kundendaden bearbeiten
+                                                        <i class="entypo-pencil"></i>
+                                                    </button>
 												</div>
 											</div>
 										</div>
@@ -217,25 +251,25 @@
 							<div class="panel-body">		
 								<div class="row">
 									<div class="col-sm-12">
-										<div class="form-horizontal form-groups fg-label squeeze">
+										<div class="form-horizontal form-groups ">
 											<div class="form-group">
 												<label class="col-sm-5 control-label"><strong>Name</strong></label>						
 												<div class="col-sm-7">
-													<span  class="form-control">Frau Klaudia Musil</span>
+													<span  class="form-control form-control-text">Frau Klaudia Musil</span>
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-sm-5 control-label"><strong>Adresse</strong></label>						
 												<div class="col-sm-7">
-													<span class="form-control" style="height:auto;">Traunstraße 28 <br/>2120 Wolkersdorf <br/>Österreich</span>
+													<span class="form-control form-control-text">Traunstraße 28 <br/>2120 Wolkersdorf <br/>Österreich</span>
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-sm-5 control-label"><strong>Rufnummer</strong></label>						
 												<div class="col-sm-7">
-													<span  class="form-control">069911145395</span>
+													<span  class="form-control form-control-text">069911145395</span>
 												</div>
 											</div>
 
@@ -245,12 +279,10 @@
 											<div class="form-group">
 												<label class="col-sm-5 control-label"></label>						
 												<div class="col-sm-7">
-													<p class="form-control">
-														<button type="button" onclick="jQuery('#modal-kunden-bearbeiten-Lieferadresse').modal('show');" class="btn btn-blue btn-icon icon-left">
-															Lieveradresse bearbeiten
-															<i class="entypo-pencil"></i>
-														</button>
-													</p>
+                                                    <button type="button" onclick="jQuery('#modal-kunden-bearbeiten-Lieferadresse').modal('show');" class="btn btn-blue btn-icon icon-left">
+                                                        Lieferadresse bearbeiten
+                                                        <i class="entypo-pencil"></i>
+                                                    </button>
 												</div>
 											</div>
 										</div>
@@ -267,38 +299,34 @@
 	</div>
 </div>
 
+<div class="btn-bar bs-example row">
+
+<div class="col-xs-4 clearfix left-bar">
+
+</div>
+
+<div class="col-xs-8 clearfix right-bar">
+	<div class="btn-group btn-select pull-right">
+        <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+            Bilder herunterladen<i class="entypo-down-open"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#"> Ausgewählte Bilder</a></li>
+            <li><a href="#"> Nur Downloads </a></li>
+            <li><a href="#"> Das ganze Album </a></li>
+        </ul>
+    </div>
+    
+</div>    
+   
+</div>
+
 <div class="row">
 	<div class="col-sm-12">
-		<div class="panel panel-primary">
-			<div class="panel-heading paddup">		
-				<div class="row">
-					<div class="col-lg-6 col-sm-6">							
-						<form class="form-horizontal form-groups-bordered">
-							<div class="row">
-								<div class="col-sm-7">
-									<label for="field-1" class="col-sm-5 control-label align-left c-black"><strong>Bestellung</strong></label>	
-								</div>						
-							</div>
-						</form>			
-					</div>	
-					<div class="col-lg-3 col-sm-4 col-sm-offset-2 col-lg-offset-3">	
-						<form class="form-horizontal form-groups-bordered">
-							<div class="row">
-								<div class="col-sm-12">
-									<select name="test" class="selectboxit">
-										<option value="">Zip Download</option>						
-										<option value="">Nur gekaufte Daten</option>						
-										<option value="">Ausgewahlte</option>	
-										<option value="">Alle</option>	
-									</select>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-				
-			<table class="table orders table-bordered table-striped datatable" id="table-2">
+		
+        <div class="dataTables_wrapper form-inline" role="grid">
+             
+			<table class="table table-bordered datatable display" id="table-2" cellspacing="0" width="100%">
 				<thead>
 					<tr>
 						<th>
@@ -314,8 +342,7 @@
 						<th>Stück</th>
 						<th>Ihr Erlös</th>
 						<th>Preis</th>
-						<th class="action visible-lg">Aktion</th>
-						
+						<th>Aktion</th>
 					</tr>
 				</thead>
 				
@@ -337,26 +364,26 @@
 						</td>
 						<td>
 							se4090.jpg<br/>
-							<small><i class="entypo-download"></i> 12 Downloads</small><br/>
-							<small><i class="entypo-clock"></i> 30.04.2014</small>
+							<small class="text-primary"><i class="entypo-download"></i> 12 Downloads</small><br/>
+							<small class="text-primary"><i class="entypo-clock"></i> 30.04.2014</small>
 						</td>
 						<td>
 							Abzug<br/>
-							<small>Lambda-Abzug auf Fuji Crystal DP II Glanz</small>
+							<small class="text-primary">Lambda-Abzug auf Fuji Crystal DP II Glanz</small>
 						</td>
 						<td>
-							<i class="entypo-cancel c-red"></i>  20 x 10 cm<br/>
-							<small>203 x 105, 300 dpi</small>
+							<i class="entypo-cancel "></i>  20 x 10 cm<br/>
+							<small class="text-primary">203 x 105, 300 dpi</small>
 						</td>
-						<td class="printing-company">
+						<td class="lab-status">
 							Fotolabor<br/>
-							<span class="label label-danger margin-0"><span class="visible-ib-lg">Warte auf Upload</span></span>
+							<span class="badge badge-danger tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Warte auf Upload">Warte auf Upload</span>
 						</td>
 						<td>1 Stk</td>
 						<td>€ 19,00</td>
 						<td>€ 19,90</td>
-						<td class="action visible-lg">
-							<button type="button" class="btn btn-red btn-icon icon-left">
+						<td >
+							<button type="button" class="btn btn-red btn-fullwidth btn-icon icon-left">
 								Upload erforderlich
 								<i class="entypo-upload"></i>
 							</button>
@@ -379,25 +406,25 @@
 						</td>
 						<td>
 							se4090.jpg<br/>
-							<small><i class="entypo-download"></i> Download</small>
+							<small class="text-primary"><i class="entypo-download"></i> Download</small>
 						</td>
 						<td>
 							Abzug<br/>
-							<small>Lambda-Abzug auf Fuji Crystal DP II Glanz</small>
+							<small class="text-primary">Lambda-Abzug auf Fuji Crystal DP II Glanz</small>
 						</td>
 						<td>
 							<i class="fa fa-warning c-yellow"></i>  20 x 10 cm<br/>
-							<small>203 x 105, 300 dpi</small>
+							<small class="text-primary">203 x 105, 300 dpi</small>
 						</td>
-						<td class="printing-company">
+						<td class="lab-status">
 							Fotolabor<br/>
-							<span class="label label-danger margin-0"><span class="visible-ib-lg">Warte auf Upload</span></span>
+							<span class="badge badge-danger tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Warte auf Upload">Warte auf Upload</span>
 						</td>
 						<td>1 Stk</td>
 						<td>€ 19,00</td>
 						<td>€ 19,90</td>
-						<td class="action visible-lg">
-							<button type="button" class="btn btn-red btn-icon icon-left">
+						<td >
+							<button type="button" class="btn btn-red btn-fullwidth btn-icon icon-left">
 								Upload erforderlich
 								<i class="entypo-upload"></i>
 							</button>
@@ -418,26 +445,26 @@
 						</td>
 						<td>
 							se4090.jpg<br/>
-							<small><i class="entypo-download"></i> Download</small>
+							<small class="text-primary"><i class="entypo-download"></i> Download</small>
 						</td>
 						<td>
 							Abzug<br/>
-							<small>Lambda-Abzug auf Fuji Crystal DP II Glanz</small>
+							<small class="text-primary">Lambda-Abzug auf Fuji Crystal DP II Glanz</small>
 						</td>
 						<td>
 							<i class="entypo-check c-green"></i> 2000 px<br/>
-							<small>2000px, 72 dpi</small>
+							<small class="text-primary">2000px, 72 dpi</small>
 						</td>
-						<td class="printing-company">
+						<td>
 							Fotolabor<br/>
-							<span class="label label-danger margin-0"><span class="visible-ib-lg">Warte auf Upload</span></span>
+							<span class="badge badge-danger tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Warte auf Upload">Warte auf Upload</span>
 						</td>
 						<td>1 Stk</td>
 						<td>€ 19,00</td>
 						<td>€ 19,90</td>
-						<td class="action visible-lg">
-							<button type="button" class="btn btn-default btn-icon icon-left">
-								Upload erforderlich
+						<td>
+							<button type="button" class="btn btn-default btn-fullwidth btn-icon icon-left">
+								Upload wiederholen
 								<i class="entypo-upload"></i>
 							</button>
 						</td>
@@ -445,18 +472,86 @@
 				</tbody>
 				<tfoot>
 					<tr>
-						<td colspan="8" class="align-right">Versandkosten</td>
-						<td colspan="4">€ 6,90</td>
+						<td colspan="8" class="text-right"><strong>Versandkosten</strong></td>
+						<td colspan="4"><strong>€ 6,90</strong></td>
 					</tr>
 					<tr>
-						<td colspan="8" class="align-right">Summe inkl. 20% MwSt </td>
-						<td colspan="4">€ 66,80</td>
+						<td colspan="8" class="text-right"><strong>Summe inkl. 20% MwSt</strong></td>
+						<td colspan="4"><strong>€ 66,80</strong></td>
 					</tr>
 				</tfoot>
 			</table>
+            
+            
+			<script type="text/javascript">
+            jQuery(window).load(function()
+            {
+                var $ = jQuery;
+				
+                $("#table-2").dataTable({
+                    "sPaginationType": "bootstrap",
+					"bPaginate": false,
+					"bInfo": false,
+                    "sDom": "t<'row'<'col-xs-6 col-left'i><'col-xs-6 col-right'p>>",
+                    "bStateSave": false,
+                    "iDisplayLength": 8,
+                    "aoColumns": [
+                        { "bSortable": false, "sWidth": "35px", "sClass": "col-checkbox text-center" },
+                        { "sClass": "col-image", "sWidth": "78px" },
+                        { "sClass": "col-image-number" },
+                        { "sClass": "col-produkt" },
+						{ "sClass": "col-check text-nowrap" },
+						{ "sClass": "col-lab" },
+                        { "sClass": "col-piece text-nowrap" },
+                        { "sClass": "col-profit text-nowrap" },
+						{ "sClass": "col-price text-nowrap" },
+						{ "sClass": "col-action", "sWidth": "185px", }
+                    ],
+                });
+                
+                $(".dataTables_wrapper select").select2({
+                    minimumResultsForSearch: -1
+                });
+                
+                // Highlighted rows
+                $("#table-2 tbody input[type=checkbox]").each(function(i, el)
+                {
+                    var $this = $(el),
+                        $p = $this.closest('tr');
+                    
+                    $(el).on('change', function()
+                    {
+                        var is_checked = $this.is(':checked');
+                        
+                        $p[is_checked ? 'addClass' : 'removeClass']('highlight');
+                    });
+                });
+                
+                // Replace Checboxes
+                $(".pagination a").click(function(ev)
+                {
+                    replaceCheckboxes();
+                });
+			
+            });
+                
+            // Sample Function to add new row
+            var giCount = 1;
+            
+            function fnClickAddRow() 
+            {
+                $('#table-2').dataTable().fnAddData(['<div class="checkbox checkbox-replace"><input type="checkbox" /></div>', giCount+".2", giCount+".3", giCount+".4", giCount+".5" ]);
+                
+                replaceCheckboxes(); // because there is checkbox, replace it
+                
+                giCount++;
+            }
+            </script>
+            
 		</div>
 	</div>
 </div>
+
 
 
 

@@ -1,3 +1,4 @@
+
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/js/jvectormap/jquery-jvectormap-1.2.2.css">
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/js/rickshaw/rickshaw.min.css">
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/js/daterangepicker/daterangepicker-bs3.css">

@@ -1,19 +1,13 @@
 <?php	require_once 'includes/Template.php'; ?>
 <?php get_header(); ?>
-	<?php get_sidebar(); ?>
-	
-<div class="main-wrapper">
-		
-<div class="main-content">
-		
-	<?php get_template_part('toolbar'); ?>
-
+	<?php get_sidebar(); ?>		
+	<div class="main-content">        
+		<?php get_template_part('toolbar'); ?>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) 
 			{
 				
-				
-				
+								
 				// Sparkline Charts
 				$('.inlinebar').sparkline('html', {type: 'bar', barColor: '#ff6264'} );
 				$('.inlinebar-2').sparkline('html', {type: 'bar', barColor: '#445982'} );
@@ -149,180 +143,100 @@
 		</script>
 
 
-<div class="row stats">
-	<div class="col-sm-3 ">
-	
-		<div class="tile-stats tile-red">
-			<div class="icon"><i class="entypo-upload"></i></div>
-			<div class="num">3</div>
-			
-			<h3>Uploads erfoderlich</h3>
-			<p>Lorem ipsum dolor sit amet.</p>
-		</div>
-		
-	</div>
-	
-	<div class="col-sm-3">
-	
-		<div class="tile-stats tile-green">
-			<div class="icon"><i class="entypo-chart-bar"></i></div>
-			<div class="num">8</div>
-			
-			<h3>Neue Bestellungen</h3>
-			<p>Lorem ipsum dolor sit amet.</p>
-		</div>
-		
-	</div>
-	
-	<div class="col-sm-3">
-	
-		<div class="tile-stats tile-blue">
-			<div class="icon"><i class="entypo-credit-card"></i></div>
-			<div class="num">€ 456,96</div>
-			
-			<h3>Ihr Kontostand</h3>
-			<p>Sie haben</p>
-		</div>
-		
-	</div>
-	
-	<div class="col-sm-3">
-	
-		<div class="tile-stats tile-purple">
-			<div class="icon"><i class="entypo-floppy"></i></div>
-			<div class="num">13%</div>			
-			<h3>Speicher verbraucht</h3>
-			<p>Sie haben noc 4,6 GB von 50 GB</p>
-		</div>
-		
-	</div>
-</div>
-
-<br />
-
-<div class="row">
-	<div class="col-sm-4">
-		<div class="pad-20 bg-gray package">
-			<div class="row clearfix">
-				<div class="col-sm-7 widget-title">
-					<h1>Premium Paket</h1>
-					<small>50 GB Datenvolumen</small>
-				</div>
-				<div class="col-sm-5 status ">
-					<h3>nicht aktiv <i class="entypo-cancel"></i></h3>
-				</div>	
-				<div class="clearfix"></div>
-				<div class="col-sm-12">
-					<div class="notice">
-						Pellentesque eu urna tristique, laoreet magna a, hendrerit dolor. Donec imperdiet scelerisque velit. Vivamus efficitur, dolor eu vestibulum hendrerit, lacus orci dapibus magna, quis suscipit mi justo sit amet metus.
-					</div>
-				</div>			
-			</div>
-			<div class="row">
-				<div class="col-sm-12 button-group">
-					<button type="button" class="btn btn-red btn-icon btn-lg">
-						Shopdetails
-						<i class="entypo-cancel"></i>
-					</button>
-					<button type="button" class="btn btn-red btn-icon btn-lg">
-						Firmendaten
-						<i class="entypo-cancel"></i>
-					</button>
-					<button type="button" class="btn btn-green btn-icon btn-lg">
-						Abrechnungseinstellungen
-						<i class="entypo-check"></i>
-					</button>
-				</div>
-			</div>
-			<div class="row package-footer">
-				<div class="used-holder">
-					<div class="used" style="width:13%;">&nbsp;</div>
-				</div>
-				<p class="align-right"><strong>13% verbraucht</strong><br/>
-				<small>Sie haben noch 4,58 GB von GB frei</small></p>
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-8">	
-		<div class="panel panel-primary" id="charts_env">		
-			<div class="panel-heading">
-				<div class="panel-date-picker">
-					<div class="daterange daterange-inline add-ranges" data-format="MMMM D, YYYY" data-start-date="March 18, 2014" data-end-date="April 3, 2014">
-						<i class="entypo-calendar"></i>
-						<span>March 18, 2014 - April 3, 2014</span>
-					</div>
+		<div class="row stats">
+			<div class="col-sm-3 ">			
+				<div class="tile-stats tile-red">
+					<div class="icon"><i class="entypo-upload"></i></div>
+					<div class="num" data-start="0" data-end="3" data-postfix="" data-duration="1500" data-delay="0">0</div>
+					<h3>Uploads erfoderlich</h3>
+					<p>Lorem ipsum dolor sit amet.</p>
 				</div>
 				
-				<div class="panel-options">
-					<ul class="nav nav-tabs">
-						<li class="active"><a href="#revenu-chart" data-toggle="tab">Umsats</a></li>
-						<li class=""><a href="#orders-chart" data-toggle="tab">Bestelungen</a></li>
-						<li class=""><a href="#pageview-chart" data-toggle="tab">Pageviews</a></li>
-						<li class=""><a href="#visitors-chart" data-toggle="tab">Unique Visitors</a></li>
-					</ul>
-				</div>
 			</div>
-	
-			<div class="panel-body">
 			
-				<div class="tab-content">
+			<div class="col-sm-3">
+			
+				<div class="tile-stats tile-green">
+					<div class="icon"><i class="entypo-chart-bar"></i></div>
+					<div class="num" data-start="0" data-end="8" data-postfix="" data-duration="1500" data-delay="600">0</div>
+					
+					<h3>Neue Bestellungen</h3>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
 				
-					<div class="tab-pane active" id="revenu-chart">							
-						<div id="revenu-chart-demo" class="morrischart" style="height: 300px"></div>
+			</div>
+			
+			<div class="col-sm-3">
+			
+				<div class="tile-stats tile-blue">
+					<div class="icon"><i class="entypo-credit-card"></i></div>
+					<div class="num" data-start="0" data-end="45696" data-prefix="€ "  data-duration="1500" data-delay="1200">0</div>			
+					<h3>Ihr Kontostand</h3>
+					<p>Sie haben</p>
+				</div>
+				
+			</div>
+			
+			<div class="col-sm-3">
+			
+				<div class="tile-stats tile-purple">
+					<div class="icon"><i class="entypo-floppy"></i></div>
+					
+					<div class="num" data-start="0" data-end="13" data-postfix="%"  data-duration="1500" data-delay="2800">0</div>		
+					<h3>Speicher verbraucht</h3>
+					<p>Sie haben noc 4,6 GB von 50 GB</p>
+				</div>
+				
+			</div>
+		</div>
+
+		<br/>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="tile-progress tile-gray has-body">
+			
+					<div class="tile-header">
+						<h3>Premium Paket</h3>
+						<span>50 GB Datenvolumen</span>
+					</div>					
+					<div class="tile-body">
+						<div class="alert alert-danger">
+							<p>Pellentesque eu urna tristique, laoreet magna a, hendrerit dolor. Donec imperdiet scelerisque velit. Vivamus efficitur, dolor eu vestibulum hendrerit, lacus orci dapibus magna, quis suscipit mi justo sit amet metus.</p>
+						</div>
+						<button type="button" class="btn btn-block btn-red btn-icon btn-lg">
+							Shopdetails
+							<i class="entypo-cancel"></i>
+						</button>
+						<button type="button" class="btn btn-block btn-red btn-icon btn-lg">
+							Firmendaten
+							<i class="entypo-cancel"></i>
+						</button>
+						<button type="button" class="btn btn-block btn-green btn-icon btn-lg">
+							Abrechnungseinstellungen
+							<i class="entypo-check"></i>
+						</button>
+					</div>
+					<div class="tile-progressbar">
+						<span data-fill="13.5%"></span>
 					</div>
 					
-					<div class="tab-pane " id="orders-chart">
-						<div id="orders-chart-demo" class="morrischart" style="height: 300px"></div>
+					<div class="tile-footer">
+						<h4>
+							<span class="pct-counter">0</span>% increase
+						</h4>
+						
+						<span>so far in our blog and our website</span>
 					</div>
-					
-					<div class="tab-pane" id="pageview-chart">
-						<div id="pageview-chart-demo" class="morrischart" style="height: 300px;"></div>
-					</div>
-
-					<div class="tab-pane" id="visitors-chart">
-						<div id="visitors-chart-demo" class="morrischart" style="height: 300px;"></div>
-					</div>
-					
 				</div>
-				
 			</div>
+			<div class="col-sm-8">	
+				<?php get_template_part('Indexchart') ?>
+			</div>
+		</div>
 
-			<table class="table table-bordered table-responsive">
+		<?php get_template_part('copyright') ?>
 
-				<thead>
-					<tr>
-						<th width="50%" class="col-padding-1">
-							<div class="pull-left">
-								<div class="h4 no-margin"><strong>Pageviews</strong></div>
-								<small>54,127</small>
-							</div>
-							<span class="pull-right pageviews">4,3,5,4,5,6,5</span>
-							
-						</th>
-						<th width="50%" class="col-padding-1">
-							<div class="pull-left">
-								<div class="h4 no-margin"><strong>Unique Visitors</strong></div>
-								<small>25,127</small>
-							</div>
-							<span class="pull-right uniquevisitors">2,3,5,4,3,4,5</span>
-						</th>
-					</tr>
-				</thead>
-				
-			</table>
-			
-		</div>	
+
 
 	</div>
-
-	
-</div>
-
-
-
-
-<br />
-</div>
-
-</div>
 <?php get_footer(); ?>

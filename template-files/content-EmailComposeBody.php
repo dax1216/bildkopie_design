@@ -9,10 +9,9 @@
 			<!-- links -->
 			<div class="mail-links">
 			
-				<a href="#" class="btn btn-default">
+				<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachricht-Liste" class="btn btn-default">
 					<i class="entypo-cancel"></i>
 				</a>
-			
 				
 				<a class="btn btn-success btn-icon">
 					Nachrincht sendan
@@ -22,17 +21,15 @@
 			</div>
 		</div>
 		
-		
 		<div class="mail-compose">
 		
 			<form method="post" role="form">
-				
 				
 				<div class="compose-message-editor">
 					<textarea class="form-control wysihtml5" data-stylesheet-url="<?php siteInfo('template_url');?>css/wysihtml5-color.css" name="sample_wysiwyg" id="sample_wysiwyg"></textarea>
 				</div>
 				<br/>
-				<p class="browse-file"><input type="file" class="form-control file2 inline btn btn-primary" multiple="1" data-label="<i class='entypo-up-circled'></i> &nbsp;Browse Files" /> 5 files</p>
+				<p class="browse-file"><input type="file" class="form-control file2 inline btn btn-primary" multiple data-label="<i class='entypo-up-circled'></i> &nbsp;Browse Files" /> 5 files</p>
 				
 			</form>
 		

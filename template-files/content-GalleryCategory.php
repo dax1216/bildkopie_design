@@ -1,64 +1,95 @@
-<div class="with-table">
-	<table class="table categories table-condensed table-bordered table-hover table-striped table-responsive">
+<div class="dataTables_wrapper form-inline" role="grid">
+	<table id="table-6" class="table table-bordered datatable display" >
 		<thead>
 			<tr>
-				<th class="status">Status</th>
-				<th class="title">Titel</th>
-				<th class="action">Aktion</th>
+				<th width="54">Status</th>
+				<th>Titel</th>
+				<th width="122">Aktion</th>
 			</tr>
 		</thead>			
 		<tbody>
 			<tr>
-				<td class="status"> <span class="badge block badge-success badge-roundless"> <i class="entypo-check"></i> </span> </td>
-				<td class="title">Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
-				<td class="action">
-					<div class="btn-group both-icon white">
-						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
-						
-						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-							<i class="entypo-down-open"></i>
-						</button>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#" class="edit-category"><i class="entypo-pencil"></i> Bearbeiten</a></li>
+				<td class="middle-align"><span class="label label-success"> <i class="entypo-check"></i> </span> </td>
+				<td class="middle-align">Events 2014 <span class="badge badge-info">23 Alben zugewiesen</span></td>
+				<td class="middle-align">
+					<div class="btn-group btn-select pull-right">
+				        <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+				            Aktion wählen <i class="entypo-down-open"></i>
+				        </button>
+				        <ul class="dropdown-menu" role="menu">
+				            <li><a href="#" class="edit-category"><i class="entypo-pencil"></i> Bearbeiten</a></li>
 							<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
-						</ul>
-					</div>	
+				        </ul>
+				    </div>	
 				</td>
 			</tr>
 			<tr>
-				<td class="status"> <span class="badge block badge-danger badge-roundless"> <i class="entypo-cancel-circled"></i> </span> </td>
-				<td class="title">Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
-				<td class="action">
-					<div class="btn-group both-icon white">
-						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
-						
-						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-							<i class="entypo-down-open"></i>
-						</button>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#" class="edit-category"><i class="entypo-pencil"></i> Bearbeiten</a></li>
+				<td class="middle-align"><span class="label  label-danger"> <i class="entypo-cancel-circled"></i></span></td>
+				<td class="middle-align">Events 2014 <span class="badge badge-info">23 Alben zugewiesen</span></td>
+				<td class="middle-align">
+					<div class="btn-group btn-select pull-right">
+				        <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+				            Aktion wählen <i class="entypo-down-open"></i>
+				        </button>
+				        <ul class="dropdown-menu" role="menu">
+				            <li><a href="#" class="edit-category"><i class="entypo-pencil"></i> Bearbeiten</a></li>
 							<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
-						</ul>
-					</div>	
+				        </ul>
+				    </div>	
 				</td>
 			</tr>
 			<tr>
-				<td class="status"> <span class="badge block badge-success badge-roundless"> <i class="entypo-check"></i> </span> </td>
-				<td class="title">Events 2014 <span class="label label-info">23 Alben zugewiesen</span></td>
-				<td class="action">
-					<div class="btn-group both-icon white">
-						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
-						
-						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-							<i class="entypo-down-open"></i>
-						</button>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#" class="edit-category"><i class="entypo-pencil"></i> Bearbeiten</a></li>
+				<td class="middle-align"><span class="label label-success"> <i class="entypo-check"></i> </span> </td>
+				<td class="middle-align">Events 2014 <span class="badge badge-info">23 Alben zugewiesen</span></td>
+				<td class="middle-align">
+					<div class="btn-group btn-select pull-right">
+				        <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+				            Aktion wählen <i class="entypo-down-open"></i>
+				        </button>
+				        <ul class="dropdown-menu" role="menu">
+				            <li><a href="#" class="edit-category"><i class="entypo-pencil"></i> Bearbeiten</a></li>
 							<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
-						</ul>
-					</div>	
+				        </ul>
+				    </div>	
 				</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
+	
+
+
+<script type="text/javascript">
+var responsiveHelper;
+var breakpointDefinition = {
+    tablet: 1024,
+    phone : 480
+};
+var tableContainer;
+
+	jQuery(document).ready(function($)
+	{
+		tableContainer = $("#table-6");
+
+		tableContainer.dataTable({
+			"sPaginationType": "bootstrap",
+			"aLengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+			"bStateSave": true,		
+		});
+		
+	
+		// Replace Checboxes
+		$(".pagination a").click(function(ev)
+		{
+			replaceCheckboxes();
+		});
+		
+		$(".dataTables_wrapper select").select2({
+			minimumResultsForSearch: -1
+		});
+		
+	});
+</script>
+
+
+

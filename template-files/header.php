@@ -18,10 +18,10 @@
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/css/neon-core.css">
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/css/neon-theme.css">
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/css/neon-forms.css">
-	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/css/custom.css">	
 	<link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/css/font-icons/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php siteInfo('template_url'); ?>/css/custom.css">
 	<script src="<?php siteInfo('template_url'); ?>/js/jquery-1.11.0.min.js"></script>
-
+    
 	<!--[if lt IE 9]><script src="<?php siteInfo('template_url'); ?>/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

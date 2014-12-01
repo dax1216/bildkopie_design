@@ -1,5 +1,3 @@
-<button type="button" class="btn btn-default"><i class="entypo-reply"></i></button>
-<h2 class="page-title">Nachrichten - Claudia Musil </h2>
 <div class="mail-env">
 	<!-- compose new email button -->
 	<div class="mail-sidebar-row visible-xs">

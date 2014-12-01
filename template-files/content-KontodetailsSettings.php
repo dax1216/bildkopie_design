@@ -1,4 +1,4 @@
-<div class="panel panel-default panel-shadow" data-collapsed="0"><!-- to apply shadow add class "panel-shadow" -->			
+<div class="panel panel-default" data-collapsed="0"><!-- to apply shadow add class "panel-shadow" -->			
 	<!-- panel head -->
 	<div class="panel-heading">
 		<div class="panel-title">Zugangsdaten ändern</div>
@@ -35,7 +35,7 @@
 						</div>
 					</div>
 
-					<hr class="col-sm-offset-1 col-sm-11" />
+					<hr />
 					<div class="form-group">
 						<div class="col-sm-offset-5 col-sm-6">
 							<button type="button" class="btn btn-green btn-icon icon-left">

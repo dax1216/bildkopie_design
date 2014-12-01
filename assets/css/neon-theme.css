@@ -5,16 +5,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: 'Conv_Calibri';
-  src: url('../fonts/Calibri.eot');
-  src: local('☺'), url('../fonts/Calibri.woff') format('woff'), url('../fonts/Calibri.ttf') format('truetype'), url('../fonts/Calibri.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
 html {
   font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -127,6 +117,9 @@ cite {
 }
 .text-justify {
   text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
 }
 .text-muted {
   color: #999999;
@@ -2842,10 +2835,10 @@ hr + .mail-env {
 .mail-env .mail-sidebar .mail-menu > li a .badge {
   font-size: 13px;
 }
-/*.mail-env .mail-sidebar .mail-menu > li a .badge-gray {
+.mail-env .mail-sidebar .mail-menu > li a .badge-gray {
   background: transparent;
   border: 1px solid #ebebeb;
-}*/
+}
 .mail-env .mail-sidebar .mail-menu > li a .badge-roundless {
   display: inline-block;
   width: 14px;
@@ -2984,7 +2977,6 @@ hr + .mail-env {
 .mail-env .mail-body .mail-text {
   border-bottom: 1px solid #ebebeb;
   padding: 20px;
-  color: #949494;
 }
 .mail-env .mail-body .mail-attachments {
   padding: 20px;
@@ -3026,7 +3018,10 @@ hr + .mail-env {
   display: block;
 }
 .mail-env .mail-body .mail-attachments ul li > a img {
-
+  position: relative;
+  display: block;
+  line-height: 1;
+  margin-bottom: 10px;
 }
 .mail-env .mail-body .mail-attachments ul li > a.thumb {
   position: relative;
@@ -3336,17 +3331,6 @@ hr + .mail-env {
 .mail-env.right-sidebar .mail-body {
   float: left;
 }
-h2.page-title{
-  font-weight: bold;
-  font-size:25px;
-  padding-bottom: 12px;
-}
-@media (max-width: 1393px){
-  .with-table .btn-group .btn-parallel{
-    width: auto;
-  }
-
-}
 @media (max-width: 999px) {
   .mail-env .mail-body .mail-table tbody tr td.col-subject a {
     max-width: 280px;
@@ -3537,8 +3521,8 @@ h2.page-title{
   background-clip: padding-box;
 }
 .login-page .login-form .form-group .input-group.focused {
-  border-color: #343e4b;
-  border-color: rgba(67, 80, 97, 1);
+  border-color: #626f85;
+  border-color: rgba(98, 111, 133, 0.5);
 }
 .login-page .login-form .form-group .input-group.validate-has-error {
   border-color: #ec5956;
@@ -5069,11 +5053,9 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
   -moz-background-clip: padding;
   border-radius: 3px;
   background-clip: padding-box;
-  background: #fff;
 }
 .gallery-env article.album header {
   position: relative;
-  cursor: move;
 }
 .gallery-env article.album header img {
   line-height: 1;
@@ -5088,7 +5070,6 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
   -moz-background-clip: padding;
   border-radius: 3px 3px 0 0;
   background-clip: padding-box;
-  cursor: move;
 }
 .gallery-env article.album header .album-options {
   position: absolute;
@@ -5126,13 +5107,6 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 .gallery-env article.album .album-info h3 {
   font-size: 18px;
   margin: 0;
-  font-weight: bold;
-}
-.gallery-env article.album .album-info h3 .label{
-  font-weight: normal;
-  font-size:11px;
-  vertical-align: middle;
-  padding: 3px 10px;
 }
 .gallery-env article.album .album-info p {
   margin: 0;
@@ -5141,9 +5115,6 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 }
 .gallery-env article.album footer {
   border-top: 1px solid #f0f0f0;
-}
-.gallery-env article.album footer .btn-group{
-  padding: 3px 0;
 }
 .gallery-env article.album footer:before,
 .gallery-env article.album footer:after {
@@ -5179,12 +5150,7 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 .gallery-env article.album footer .album-options {
   float: right;
   border-left: 1px solid #f0f0f0;
-  padding: 10px 10px;
-}
-.btn-clear button{
-  background: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
+  padding: 7px 10px;
 }
 .gallery-env article.album footer .album-options a {
   padding: 4px 5px;
@@ -5313,20 +5279,6 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
   font-weight: bold;
   color: #4f5259;
 }
-.toolbar-gallery{
-  background: #fafafb;
-  border-top: 1px solid #ededed;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-.toolbar-gallery .icon-group{
-  padding-top: 7px;
-  color: #8d929a;
-}
-.toolbar-gallery .icon-group a{
-   color: #8d929a;
-   text-decoration: underline;
-}
 .modal .croppable-image {
   border: 4px solid rgba(235, 235, 235, 0.5);
 }
@@ -5348,10 +5300,6 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 }
 .gallery-image-edit-env img {
   width: 100%;
-}
-.popover{
-  width: 700px;
-  white-space: pre-line;
 }
 .gallery-image-edit-env .close {
   position: absolute;
@@ -5437,6 +5385,7 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 }
 .profile-env > header .profile-info-sections .profile-name strong {
   font-size: 18px;
+  font-weight: normal;
 }
 .profile-env > header .profile-info-sections .profile-name span {
   font-size: 12px;
@@ -5486,7 +5435,6 @@ fieldset[disabled] .calendar-env .calendar-body .fc-content .fc-view table tbody
 .profile-env > header .profile-info-sections .profile-stat h3 {
   font-size: 18px;
   margin-bottom: 5px;
-  font-weight: bold;
 }
 .profile-env > header .profile-info-sections .profile-stat span {
   color: #bbbbbb;

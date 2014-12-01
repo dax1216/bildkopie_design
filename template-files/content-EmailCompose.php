@@ -1,7 +1,3 @@
-<button type="button" class="btn btn-default"><i class="entypo-reply"></i></button>
-<br/>
-<br/>
-<br/>
 <div class="mail-env">
 	<!-- compose new email button -->
 	<div class="mail-sidebar-row visible-xs">

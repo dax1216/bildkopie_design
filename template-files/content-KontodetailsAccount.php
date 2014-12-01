@@ -1,5 +1,4 @@
-<div class="panel panel-default panel-shadow" data-collapsed="0"><!-- to apply shadow add class "panel-shadow" -->
-
+<div class="panel panel-default" data-collapsed="0"><!-- to apply shadow add class "panel-shadow" -->
 	<!-- panel head -->
 	<div class="panel-heading">
 		<div class="panel-title">Stammdaten</div>
@@ -20,8 +19,8 @@
 						<label class="col-sm-5 control-label">Anrede</label>						
 						<div class="col-sm-7">											
 							<select name="" class="selectboxit" data-first-option="false">								
-								<option value="1">Auswhlen</option>								
-								<option value="2">Auswhlen</option>								
+								<option value="1">Frau</option>								
+								<option value="2">Herr</option>								
 							</select>											
 						</div>
 					</div>
@@ -100,7 +99,7 @@
 						</div>
 					</div>
 
-					<hr class="col-sm-offset-1 col-sm-11" />
+					<hr/>
 					<div class="form-group">
 						<div class="col-sm-offset-5 col-sm-6">
 							<button type="button" class="btn btn-green btn-icon icon-left">
@@ -112,16 +111,10 @@
 			</form>
 			</div>
 			<div class="col-sm-6">
-				<div class="row">
-					<div class="col-sm-9 col-sm-offset-1 ">
-						<div class="infotext">
-								<h3>Ihre Stammdaten</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-					
-						</div>
-					</div>
-				</div>
+				<div class="alert alert-description">
+	                <h3>Ihre Stammdaten</h3>
+	                <p>Wir benötigen Ihre <strong>Kontodaten</strong> für den Ausgleich Ihres Bildkopie-Kontos. Wir nutzen diese Kontodaten sowohl für den Einzug der monatlichen Grundgebühr als auch für Ihre Auszahlung, wenn Sie durch Fotobestellungen auf Ihrer Seite ein positives Guthaben bei uns besitzen. Bitte geben Sie entweder eine deutsche oder eine europäische Bankverbindung an.</p>
+	            </div>
 			</div>
 			
 		</div>						
@@ -130,11 +123,11 @@
 	
 </div>
 
-<div class="panel panel-default panel-shadow" data-collapsed="0"><!-- to apply shadow add class "panel-shadow" -->
+<div class="panel panel-default" data-collapsed="0"><!-- to apply shadow add class "panel-shadow" -->
 
 	<!-- panel head -->
 	<div class="panel-heading">
-		<div class="panel-title">Stammdaten</div>
+		<div class="panel-title">Firmendaden</div>
 		
 		<div class="panel-options">
 			<a href="#" data-rel="collapse"><i class="entypo-down-open"></i></a>
@@ -177,14 +170,14 @@
 					</div>
 
 					<div class="form-group">
-						<label class="col-sm-5 control-label">Gericht   <span class="required"></span></label>
+						<label class="col-sm-5 control-label">Gericht <span class="required"></span></label>
 						<div class="col-sm-7">
 							<input type="text" class="form-control" id="field-1" placeholder="" name="">
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label class="col-sm-5 control-label">Ihre Währung  <span class="required">*</span></label>
+						<label class="col-sm-5 control-label">Ihre Währung <span class="required">*</span></label>
 						<div class="col-sm-7">											
 							<select name="" class="selectboxit" data-first-option="false">								
 								<option value="1">- Euro</option>									
@@ -193,9 +186,7 @@
 						</div>	
 					</div>
 
-					<hr class="col-sm-offset-1 col-sm-11">									
-					
-
+					<hr>									
 
 					<div class="form-group">
 						<label class="col-sm-5 control-label">Umsatzsteuer Pflicht</label>										
@@ -226,16 +217,16 @@
 					<div class="form-group">
 						<label class="col-sm-5 control-label"></label>
 						<div class="col-sm-7">
-							<div class="row box bg-success  rounded">
-								<div class="checkbox checkbox-replace color-green">
-									<div class="col-sm-1"><input type="checkbox" id="chk-23"></div>
-									<div class="col-sm-10">Hiermit bestätige ich, dass die von mir hinterlegten Informationen zutreffend sind. Steuerberatende Leistungen werden weder durch bildkopie.com geschuldet noch erbracht.</div>
-								</div>
-							</div>
+							<div class="alert alert-danger">
+				                <div class="checkbox checkbox-replace color-red">
+				                    <input type="checkbox" id="chk-23">
+				                    <label>Hiermit bestätige ich, dass die von mir hinterlegten Informationen zutreffend sind. Steuerberatende Leistungen werden weder durch bildkopie.com geschuldet noch erbracht.</label>
+				                </div>
+			            	</div>
 						</div>
 					</div>
 
-					<hr class="col-sm-offset-1 col-sm-11" />
+					<hr/>
 
 					<div class="form-group">
 						<div class="col-sm-offset-5 col-sm-6">
@@ -247,19 +238,15 @@
 					</div>
 			</form>
 			</div>
-			<div class="col-sm-6">
-				<div class="row">									
-
-					<div class="col-sm-9 col-sm-offset-1 ">
-							<div class="infotext"><h3>Firmendaten</h3>
-						<p>Werden auch als Impressum und Rechnungsdaten verwendet!!!
+			<div class="col-sm-6">				
+				<div class="alert alert-description">
+					<h3>Firmendaten</h3>
+					<p>Werden auch als Impressum und Rechnungsdaten verwendet!!!
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-						<p>Mir ist bewusst, dass ich nur zum Ausweis von Mehrwertsteuer berechtigt bin, wenn beim Finanzamt eine Registrierung als umsatzsteuerausweisberechtigter Unternehmer erfolgt ist.</p>
-						<p>Mir ist bewusst, dass ich bei Ausweis von Mehrwertsteuer gegenüber dem zuständigen Finanzamt Schuldner des auf der Rechnung an den Kunden ausgewiesenen Mehrwertsteuerbetrags bin.</p>
-						<p>Mir ist desweiteren bewusst, dass fotograf.de keine Pflicht zur Überprüfung des von mir eingestellten Mehrwertsteuersatzes trifft.</p>
-						<p>Ich erkenne an, dass fotograf.de nicht für die auf Basis der von mir angegebenen Informationen ausgestellten Rechnungen haftet. </p>
-					</div>
-						</div>
+					<p>Mir ist bewusst, dass ich nur zum Ausweis von Mehrwertsteuer berechtigt bin, wenn beim Finanzamt eine Registrierung als umsatzsteuerausweisberechtigter Unternehmer erfolgt ist.</p>
+					<p>Mir ist bewusst, dass ich bei Ausweis von Mehrwertsteuer gegenüber dem zuständigen Finanzamt Schuldner des auf der Rechnung an den Kunden ausgewiesenen Mehrwertsteuerbetrags bin.</p>
+					<p>Mir ist desweiteren bewusst, dass fotograf.de keine Pflicht zur Überprüfung des von mir eingestellten Mehrwertsteuersatzes trifft.</p>
+					<p>Ich erkenne an, dass fotograf.de nicht für die auf Basis der von mir angegebenen Informationen ausgestellten Rechnungen haftet. </p>
 				</div>
 			</div>
 			

@@ -1,18 +1,14 @@
 <div class="panel panel-default" data-collapsed="0"><!-- to apply shadow add class "panel-shadow" -->
-
 	<!-- panel head -->
 	<div class="panel-heading">
-		<div class="panel-title">Ihr Wasserzeichen</div>
-		
+		<div class="panel-title">Ihr Wasserzeichen</div>		
 		<div class="panel-options">
 			<a href="#" data-rel="collapse"><i class="entypo-down-open"></i></a>
 			<a href="#" data-rel="reload"><i class="entypo-arrows-ccw"></i></a>
 		</div>
-	</div>
-	
+	</div>	
 	<!-- panel body -->
-	<div class="panel-body">	
-		
+	<div class="panel-body">
 		<div class="row">
 			<div class="col-sm-6">
 				<form role="form" class="form-horizontal form-groups">
@@ -85,7 +81,7 @@
 						</div>
 					</div>
 
-					<hr class="col-sm-offset-1 col-sm-11" />
+					<hr />
 					<div class="form-group">
 						<div class="col-sm-offset-5 col-sm-6">
 							<button type="button" class="btn btn-green btn-icon icon-left">
@@ -94,22 +90,15 @@
 							</button>
 						</div>
 					</div>
-			</form>
+				</form>
 			</div>
 			<div class="col-sm-6">
-				<div class="row">
-					<div class="col-lg-7 col-md-8 col-lg-offset-1">
-						<div class="infotext">
-							<h3>Ihr Wasserzeichen</h3>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-					
-						</div>
-					</div>
-				</div>
-			</div>
+				<div class="alert alert-description">
+					<h3>Ihr Wasserzeichen</h3>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 			
-		</div>						
-		
-	</div>
-	
+				</div>
+			</div>			
+		</div>
+	</div>	
 </div>

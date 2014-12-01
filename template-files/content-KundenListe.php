@@ -1,59 +1,18 @@
-<button type="button" class="btn btn-default"><i class="entypo-reply"></i></button>
-<h2 class="page-title">Kunden</h2>
-<div class="panel panel-primary">
-	<div class="panel-heading paddup">		
-		<div class="row"> 
-			<div class="col-sm-6 col-md-6">							
-				<form class="form-horizontal form-groups-bordered">
-					<div class="row">												
-						<div class="col-sm-5  max-sm">
-							<select name="test" class="selectboxit">	
-								<option value="10">10</option>						
-								<option value="20">20</option>						
-								<option value="30">30</option>				
-							</select>
-						</div>
-						<label for="field-1" class="col-sm-5 control-label align-left">records per page</label>						
-					</div>
-				</form>			
-			</div>	
-			<div class="col-sm-6 col-md-6">	
-				<form class="form-horizontal form-groups-bordered">
-					<div class="row">
-						<div class="col-md-7 col-sm-6">
-							<div class="row">
-								<label for="field-1" class="col-sm-3 control-label">Search:</label>								
-								<div class="col-sm-9">
-									<input type="text" class="form-control" id="field-1" >
-								</div>
-							</div>
-						</div>
-						<div class="col-md-5 col-sm-6">
-							<div class="btn-group pull-right"  data-toggle="buttons">
-								<label class="btn btn-white">
-									<input type="checkbox">CSV
-								</label>
-								<label class="btn btn-white">
-									<input type="checkbox">Excel
-								</label>
-							</div>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-		
-	<table class="table customers table-condensed table-bordered table-hover table-striped table-responsive">
+<div class="btn-bar bs-example row">
+	<div class="col-xs-4 clearfix left-bar">
+	    <button type="button" class="btn btn-white"><i class="entypo-reply"></i></button>
+	</div>       
+</div>
+
+	<table class="table table-bordered datatable" id="table-2">
 		<thead>
 			<tr>
-				<th class="name">Name</th>
-				<th class="street" >Straße</th>
-				<th class="city">Ort</th>
-				<th class="country">Land</th>
-				<th class="phone">Telefon</th>
-				<th class="email">E-Mail</th>
-				<th class="action">Aktion</th>
+				<th>Name</th>
+				<th>Straße</th>
+				<th>Ort</th>
+				<th>Land</th>
+				<th>Telefon</th>
+				<th>Aktion</th>
 			</tr>
 		</thead>			
 		<tbody>
@@ -63,110 +22,116 @@
 				<td>2213 Bockfließ</td>
 				<td>Österreich</td>
 				<td>0664-5308695</td>
-				<td class="email"><a href="mailto:claudia.musil@gmail.com"><i class="entypo-mail"></i></a></td>
-				<td class="action">
-					<div class="btn-group both-icon white">
-						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
-						
-						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-							<i class="entypo-down-open"></i>
-						</button>
+				<td>
+					<div class="btn-group btn-select pull-right">
+						<button type="button" class="btn btn-white btn-sm dropdown-toggle" data-toggle="dropdown">
+				            Aktion wählen <i class="entypo-down-open"></i>
+				        </button>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#" onclick="jQuery('#modal-kunden-bearbeiten').modal('show');"><i class="entypo-pencil"></i> Bearbeiten</a></li>
-							<li><a href="#"><i class="entypo-basket"></i> Bestellungen</a></li>
-							<li><a href="#"><i class="entypo-mail"></i> Nachrichten</a></li>
+							<li><a href="<?php siteInfo('url'); ?>/backend_photographer/Bestellungen-Liste.php"><i class="entypo-basket"></i> Bestellungen</a></li>
+							<li><a href="<?php siteInfo('url'); ?>/backend_photographer/Kunden-Nachricht-Liste.php"><i class="entypo-mail"></i> Nachrichten</a></li>
 							<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 						</ul>
 					</div>	
 				</td>
 			</tr>
 			<tr>
-				<td>Frau Claudia Musil</td>
-				<td>Schlossgasse 10</td>
-				<td>2213 Bockfließ</td>
+				<td>Frau Karin Hiebener</td>
+				<td>Traunstr.28</td>
+				<td>2120 Wolkersdorf</td>
 				<td>Österreich</td>
-				<td>0664-5308695</td>
-				<td class="email"><a href="mailto:claudia.musil@gmail.com"><i class="entypo-mail"></i></a></td>
-				<td class="action">
-					<div class="btn-group both-icon white">
-						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
-						
-						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-							<i class="entypo-down-open"></i>
-						</button>
+				<td>0699_11145395</td>
+				<td>
+					<div class="btn-group btn-select pull-right">
+						<button type="button" class="btn btn-white btn-sm dropdown-toggle" data-toggle="dropdown">
+				            Aktion wählen <i class="entypo-down-open"></i>
+				        </button>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#" onclick="jQuery('#modal-kunden-bearbeiten').modal('show');"><i class="entypo-pencil"></i> Bearbeiten</a></li>
-							<li><a href="#"><i class="entypo-basket"></i> Bestellungen</a></li>
-							<li><a href="#"><i class="entypo-mail"></i> Nachrichten</a></li>
+							<li><a href="<?php siteInfo('url'); ?>/backend_photographer/Bestellungen-Liste.php"><i class="entypo-basket"></i> Bestellungen</a></li>
+							<li><a href="<?php siteInfo('url'); ?>/backend_photographer/Kunden-Nachricht-Liste.php"><i class="entypo-mail"></i> Nachrichten</a></li>
 							<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 						</ul>
 					</div>	
 				</td>
 			</tr>
 			<tr>
-				<td>Frau Claudia Musil</td>
-				<td>Schlossgasse 10</td>
-				<td>2213 Bockfließ</td>
+				<td>Herr Andrea Kellner</td>
+				<td>Schillerstraße 34</td>
+				<td>2263 Dürnkrut</td>
 				<td>Österreich</td>
-				<td>0664-5308695</td>
-				<td class="email"><a href="mailto:claudia.musil@gmail.com"><i class="entypo-mail"></i></a></td>
-				<td class="action">
-					<div class="btn-group both-icon white">
-						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
-						
-						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-							<i class="entypo-down-open"></i>
-						</button>
+				<td>0699 16050109</td>
+				<td>
+					<div class="btn-group btn-select pull-right">
+						<button type="button" class="btn btn-white btn-sm dropdown-toggle" data-toggle="dropdown">
+				            Aktion wählen <i class="entypo-down-open"></i>
+				        </button>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="javascript:void(0)" onclick="jQuery('#modal-kunden-bearbeiten').modal('show');"><i class="entypo-pencil"></i> Bearbeiten</a></li>
-							<li><a href="#"><i class="entypo-basket"></i> Bestellungen</a></li>
-							<li><a href="#"><i class="entypo-mail"></i> Nachrichten</a></li>
+							<li><a href="#" onclick="jQuery('#modal-kunden-bearbeiten').modal('show');"><i class="entypo-pencil"></i> Bearbeiten</a></li>
+							<li><a href="<?php siteInfo('url'); ?>/backend_photographer/Bestellungen-Liste.php"><i class="entypo-basket"></i> Bestellungen</a></li>
+							<li><a href="<?php siteInfo('url'); ?>/backend_photographer/Kunden-Nachricht-Liste.php"><i class="entypo-mail"></i> Nachrichten</a></li>
 							<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 						</ul>
 					</div>	
 				</td>
 			</tr>
 			<tr>
-				<td>Frau Claudia Musil</td>
-				<td>Schlossgasse 10</td>
-				<td>2213 Bockfließ</td>
+				<td>Herr Dr. Karl Ennsfellner</td>
+				<td>In Kirchbergen 16</td>
+				<td>2120 Wolkersdorf</td>
 				<td>Österreich</td>
-				<td>0664-5308695</td>
-				<td class="email"><a href="mailto:claudia.musil@gmail.com"><i class="entypo-mail"></i></a></td>
-				<td class="action">
-					<div class="btn-group both-icon white ">
-						<button type="button" class="btn btn-default btn-sm btn-parallel"> Aktion wählen </button>
-						
-						<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-							<i class="entypo-down-open"></i>
-						</button>
+				<td>0699 16050109</td>
+				<td>
+					<div class="btn-group btn-select pull-right">
+						<button type="button" class="btn btn-white btn-sm dropdown-toggle" data-toggle="dropdown">
+				            Aktion wählen <i class="entypo-down-open"></i>
+				        </button>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#" onclick="jQuery('#modal-kunden-bearbeiten').modal('show');"><i class="entypo-pencil"></i> Bearbeiten</a></li>
-							<li><a href="#"><i class="entypo-basket"></i> Bestellungen</a></li>
-							<li><a href="#"><i class="entypo-mail"></i> Nachrichten</a></li>
+							<li><a href="<?php siteInfo('url'); ?>/backend_photographer/Bestellungen-Liste.php"><i class="entypo-basket"></i> Bestellungen</a></li>
+							<li><a href="<?php siteInfo('url'); ?>/backend_photographer/Kunden-Nachricht-Liste.php"><i class="entypo-mail"></i> Nachrichten</a></li>
 							<li><a href="#"><i class="entypo-trash"></i> Löschen</a></li>
 						</ul>
 					</div>	
 				</td>
 			</tr>
-		</tbody>
+		</tbody> 
 	</table>
-	<div class="panel-footer with-paginate">
-		<div class="row">
-			<div class="col-xs-6 col-left">
-				<div class="dataTables_info" id="table-4_info">Showing 1 to 10 of 57 entries</div>
-			</div>
-			<div class="col-xs-6 col-right">
-				<div class="dataTables_paginate paging_bootstrap">
-					<ul class="pagination pagination-sm">
-						<li class="prev disabled"><a href="#"><i class="entypo-left-open"></i></a></li>
-						<li class="active"><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li class="next"><a href="#"><i class="entypo-right-open"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($)
+	{
+		var table = $("#table-2").dataTable({
+			"sPaginationType": "bootstrap",
+			"sDom": "<'row'<'col-xs-6 col-left'l><'col-xs-6 col-right'<'export-data'T>f>r>t<'row'<'col-xs-6 col-left'i><'col-xs-6 col-right'p>>",
+			"oTableTools": {
+            	"aButtons": [
+	                "xls",
+	                "print"
+	            ]
+	        },
+	        'bAutoWidth':false,
+	        "aoColumns":[
+	        {},
+	        {},
+	        {},
+	        {},
+	        {},
+	        {"sWidth": "131px"}
+	        ]
+			
+		});
+
+		// Replace Checboxes
+		$(".pagination a").click(function(ev)
+		{
+			replaceCheckboxes();
+		});
+		
+		$(".dataTables_wrapper select").select2({
+			minimumResultsForSearch: -1
+		});
+	});
+		
+</script>

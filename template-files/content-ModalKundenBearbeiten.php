@@ -1,12 +1,12 @@
 <!-- modal-package (Custom Width)-->
-<div class="modal fade custom-width" id="modal-kunden-bearbeiten">
+<div class="modal fade" id="modal-kunden-bearbeiten">
 	<div class="modal-dialog" style="width: 60%;">
 		<div class="modal-content">			
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Kunden bearbeiten: Claudia Musil</h4>
+				<h4 class="modal-title"><strong>Kunden bearbeiten: Claudia Musil</strong></h4>
 			</div>			
-			<div class="modal-body">			
+			<div class="modal-body resize">			
 				<div class="row">
 					<form role="form" class="form-horizontal form-groups">						
 						<div class="col-sm-6">
@@ -99,7 +99,7 @@
 									<div class="form-group">
 										<label class="col-sm-4 control-label">Abweichend</label>
 										<div class="col-sm-8 fg-label">
-											<div class="form-control">
+											<div class="form-control form-control-text">
 												<input tabindex="6" type="checkbox" class="icheck" id="minimal-checkbox-2">
 											</div>
 										</div>
@@ -124,7 +124,7 @@
 							<div class="form-group">
 								<label class="col-sm-4 control-label">E-Mail</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" value="" id="field-1" placeholder="" name="">
+									<input type="text" class="form-control" value="claudia.musil@aon.at" id="field-1" placeholder="" name="">
 								</div>
 							</div>
 							<div class="form-group">
@@ -139,7 +139,7 @@
 							<div class="form-group">
 								<label class="col-sm-4 control-label">Newsletter</label>
 								<div class="col-sm-8 fg-label">
-									<div class="form-control">
+									<div class="form-control form-control-text">
 										<input tabindex="6" type="checkbox" class="icheck" id="minimal-checkbox-2" checked>
 									</div>
 								</div>
@@ -181,7 +181,7 @@
 					</form>
 				</div>
 			</div>			
-			<div class="modal-footer both-icon">
+			<div class="modal-footer">
 
 				<button type="button" class="btn btn-red btn-icon icon-left pull-left">
 					Kunden Ioschen
@@ -203,12 +203,12 @@
 
 <!--modal2-->
 <!-- modal-package (Custom Width)-->
-<div class="modal fade custom-width" id="modal-kunden-bearbeiten-Lieferadresse">
+<div class="modal fade" id="modal-kunden-bearbeiten-Lieferadresse">
 	<div class="modal-dialog" style="width: 60%;">
 		<div class="modal-content">			
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Kunden bearbeiten: Claudia Musil</h4>
+				<h4 class="modal-title"><strong>Kunden bearbeiten: Claudia Musil</strong></h4>
 			</div>			
 			<div class="modal-body">			
 				<div class="row">
@@ -216,19 +216,19 @@
 						<div class="col-sm-6">
 							<ul class="nav nav-tabs right-aligned"><!-- available classes "bordered", "right-aligned" -->
 								<li >
-									<a href="#tab1" data-toggle="tab">
+									<a href="#tab1-2" data-toggle="tab">
 										<span class="visible-xs"><i class="entypo-user"></i></span>
 										<span class="hidden-xs">Kundendaten</span>
 									</a>
 								</li>
 								<li class="active">
-									<a href="#tab2" data-toggle="tab">
+									<a href="#tab2-2" data-toggle="tab">
 										<span class="visible-xs"><i class="entypo-box"></i></span>
 										<span class="hidden-xs">Lieferadresse</span>
 									</a>
 								</li>
 								<li>
-									<a href="#tab3" data-toggle="tab">
+									<a href="#tab3-2" data-toggle="tab">
 										<span class="visible-xs"><i class="entypo-cog"></i></span>
 										<span class="hidden-xs">Interne Notiz</span>
 									</a>
@@ -237,7 +237,7 @@
 							</ul>
 
 							<div class="tab-content">
-								<div class="tab-pane " id="tab1">
+								<div class="tab-pane " id="tab1-2">
 
 									<div class="form-group">
 										<label class="col-sm-4 control-label">Anrede</label>						
@@ -299,17 +299,17 @@
 									</div>
 
 								</div>
-								<div class="tab-pane active" id="tab2">		
+								<div class="tab-pane active" id="tab2-2">		
 									<div class="form-group">
 										<label class="col-sm-4 control-label">Abweichend</label>
 										<div class="col-sm-8 fg-label">
-											<div class="form-control">
+											<div class="form-control form-control-text">
 												<input tabindex="6" type="checkbox" class="icheck" id="minimal-checkbox-2">
 											</div>
 										</div>
 									</div>	
 								</div>
-								<div class="tab-pane" id="tab3">
+								<div class="tab-pane" id="tab3-2">
 									<div class="form-group">
 										<label class="col-sm-4 control-label">Notiz</label>
 										<div class="col-sm-8">
@@ -328,7 +328,7 @@
 							<div class="form-group">
 								<label class="col-sm-4 control-label">E-Mail</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" value="" id="field-1" placeholder="" name="">
+									<input type="text" class="form-control" value="claudia.musil@aon.at" id="field-1" placeholder="" name="">
 								</div>
 							</div>
 							<div class="form-group">
@@ -343,7 +343,7 @@
 							<div class="form-group">
 								<label class="col-sm-4 control-label">Newsletter</label>
 								<div class="col-sm-8 fg-label">
-									<div class="form-control">
+									<div class="form-control form-control-text">
 										<input tabindex="6" type="checkbox" class="icheck" id="minimal-checkbox-2" checked>
 									</div>
 								</div>
@@ -385,7 +385,7 @@
 					</form>
 				</div>
 			</div>			
-			<div class="modal-footer both-icon">
+			<div class="modal-footer">
 
 				<button type="button" class="btn btn-red btn-icon icon-left pull-left">
 					Kunden Ioschen

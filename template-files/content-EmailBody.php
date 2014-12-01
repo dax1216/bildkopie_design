@@ -52,14 +52,14 @@
 			<tr class="unread"><!-- new email class: unread -->
 				<td class="col-mail-time">13:52</td>
 				<td class="col-mail-subject">
-					<a href="mailbox-message.html">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Nachricht">
 						Mahnung zu Rechung #1234 - Fotostudio.com 
 						<span class="label label-danger label-roundless ">Mahnung</span>
 					</a>
 				</td>			
 				
 				<td align="center">
-					<a href="mailbox-message.html"><i class="entypo-attach"></i></a>
+					<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Nachricht"><i class="entypo-attach"></i></a>
 				</td>
 				<td class="align-right">
 					<button type="button" class="btn btn-blue btn-icon">
@@ -73,7 +73,7 @@
 			<tr class=""><!-- new email class: unread -->
 				<td class="col-mail-time">13:52</td>
 				<td class="col-mail-subject">
-					<a href="mailbox-message.html">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Nachricht">
 						Frage zur abrechnung... <span class="label label-default label-roundless ">Nachricht</span>
 					</a>
 				</td>			
@@ -92,13 +92,13 @@
 			<tr class=""><!-- new email class: unread -->
 				<td class="col-mail-time">13:52</td>
 				<td class="col-mail-subject">
-					<a href="mailbox-message.html">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Nachricht">
 						Frage zur abrechnung... <span class="label label-warning label-roundless ">Nachricht</span>
 					</a>
 				</td>			
 				
 				<td align="center">
-					<a href="mailbox-message.html"><i class="entypo-attach"></i></a>
+					<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Nachricht"><i class="entypo-attach"></i></a>
 				</td>
 				<td class="align-right">
 					<button type="button" class="btn btn-blue btn-icon">
@@ -111,7 +111,7 @@
 			<tr class="unread"><!-- new email class: unread -->
 				<td class="col-mail-time">13:52</td>
 				<td class="col-mail-subject">
-					<a href="mailbox-message.html">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Nachricht">
 						Frage zur abrechnung... <span class="label label-gray label-roundless ">Nachricht</span>
 					</a>
 				</td>			
@@ -130,13 +130,13 @@
 			<tr class=""><!-- new email class: unread -->
 				<td class="col-mail-time">13:52</td>
 				<td class="col-mail-subject">
-					<a href="mailbox-message.html">
+					<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Nachricht">
 						Frage zur abrechnung... <span class="label label-primary label-roundless ">Nachricht</span>
 					</a>
 				</td>			
 				
 				<td align="center">
-					<a href="mailbox-message.html"><i class="entypo-attach"></i></a>
+					<a href="<?php siteInfo('url');?>/backend_photographer/Kunden-Nachrichten-Nachricht"><i class="entypo-attach"></i></a>
 				</td>
 				<td class="align-right">
 					<button type="button" class="btn btn-blue btn-icon">
@@ -144,10 +144,7 @@
 						<i class="entypo-mail"></i>
 					</button>
 				</td>
-				
 			</tr>
-			
-			
 		</tbody>
 	</table>
 </div>

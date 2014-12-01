@@ -1,13 +1,14 @@
 <!-- new-category -->
 <div class="modal fade custom-width" id="edit-album">
-	<div class="modal-dialog" style="width: 50%;">
-		<div class="modal-content">			
+	<div class="modal-dialog" style="width: 65%;">
+		<div class="modal-content">	
+				
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Album bearbieten: <strong>Safari Reibe von 2014 mi Willi</strong></h4>
+				<h4 class="modal-title">Album bearbieten: Safari Reibe von 2014 mi Willi</h4>
 			</div>
 			
-			<div class="modal-body">
+			<div class="modal-body resize">
 				<form role="form" class="form-horizontal form-groups">
 					<div class="row">
 						<div class="col-sm-6">
@@ -25,11 +26,16 @@
 							</div>
 							<div class="form-group">
 								<label class="col-sm-5 control-label">Album Kategorie <span class="required">*</span></label>						
-								<div class="col-sm-7">											
-									<select name="" class="selectboxit" data-first-option="false">								
-										<option value="1" selected>Events 2014</option>								
-										<option value="2">Events 2013</option>								
-									</select>
+								<div class="col-sm-7">
+									<div class="btn-group  btn-fullwidth btn-select">
+								        <button type="button" class="btn btn-fullwidth btn-white dropdown-toggle" data-toggle="dropdown">
+								            Events 2014 <i class="entypo-down-open pull-right"></i>
+								        </button>
+								        <ul class="dropdown-menu" role="menu">
+								            <li><a href="#">Events 2014</a></li>
+											<li><a href="#">Events 2013</a></li>
+								        </ul>
+								    </div>
 								</div>
 							</div>
 							<div class="form-group">
@@ -58,12 +64,17 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-sm-5 control-label">Preisliste</label>						
+								<label class="col-sm-5 control-label">Preisliste <span class="required">*</span></samp></label>						
 								<div class="col-sm-7">											
-									<select name="" class="selectboxit" data-first-option="false">								
-										<option value="1" selected>Auswahlen</option>								
-										<option value="2">Osterreich</option>								
-									</select>
+									<div class="btn-group btn-fullwidth btn-select">
+								        <button type="button" class="btn btn-fullwidth btn-white dropdown-toggle" data-toggle="dropdown">
+								            Auswahlen <i class="entypo-down-open pull-right"></i>
+								        </button>
+								        <ul class="dropdown-menu" role="menu">
+								            <li><a href="#">Auswahlen</a></li>
+											<li><a href="#">Osterreich</a></li>
+								        </ul>
+								    </div>
 								</div>
 							</div>
 							<div class="form-group">
@@ -79,10 +90,15 @@
 							<div class="form-group">
 								<label class="col-sm-5 control-label">Status</label>						
 								<div class="col-sm-7">											
-									<select name="" class="selectboxit select-default " data-first-option="false">								
-										<option value="1" selected>Privat</option>								
-										<option value="2">Public</option>								
-									</select>
+									<div class="btn-group btn-fullwidth btn-select">
+								        <button type="button" class="btn btn-fullwidth btn-default dropdown-toggle" data-toggle="dropdown">
+								            Privat <i class="entypo-down-open pull-right"></i>
+								        </button>
+								        <ul class="dropdown-menu" role="menu">
+								            <li><a href="#">Auswahlen</a></li>
+											<li><a href="#">Osterreich</a></li>
+								        </ul>
+								    </div>	
 								</div>
 							</div>
 							<div class="form-group">
@@ -181,14 +197,12 @@
 
 <script type="text/javascript">	
 	jQuery(document).ready(function($)
-	{		
-
+	{
 		$(".edit-album").on("click", function(ev)
 		{
 			ev.preventDefault();
 			$("#edit-album").modal('show');
 		});
-
 		
 	});
 </script>
